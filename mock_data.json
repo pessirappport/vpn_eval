@@ -1,0 +1,72 @@
+{
+    "ip_api": {
+        "ipInfo": {
+            "status": "success",
+            "country": "Austria",
+            "regionName": "Vienna",
+            "city": "Vienna",
+            "lat-lon": [
+                48.1936,
+                16.3726
+            ],
+            "lat-lon-resolve": [
+                "Vienna",
+                "Vienna",
+                "Austria"
+            ],
+            "isp": "Strong Technology, LLC.",
+            "mobile": true,
+            "proxy": true,
+            "hosting": true,
+            "query": "216.131.110.155"
+        },
+        "dnsInfo": {
+            "geo": "Austria - Strong Technology, LLC.",
+            "ip": "216.131.110.154"
+        }
+    },
+    "dns_leak_test": [
+        {
+            "ip": "216.131.110.154",
+            "hostname": "154.110.131.216.client.dyn.strong-sf3.reliablehosting.com.",
+            "isp": "Netprotect",
+            "country": "Austria"
+        }
+    ],
+    "ip_leak": {
+        "ip_info": {
+            "ip": "216.131.110.156",
+            "region": "Vienna",
+            "country": "Austria"
+        },
+        "dns_info": [
+            {
+                "ip": "216.131.110.154",
+                "region": "Vienna",
+                "country": "Austria"
+            }
+        ],
+        "system_discrepancies": "No discrepancies noted."
+    },
+    "whoer": {},
+    "icann_lookup": [
+        {
+            "ip_address": "216.131.110.155",
+            "name": "NETPROTECT-VIE-DP",
+            "registrant_name": "Netprotect",
+            "registrant_location": "Louis-Hafliger-Gasse 10, 1210 Wien Vienna   Austria"
+        },
+        {
+            "ip_address": "216.131.110.154",
+            "name": "NETPROTECT-VIE-DP",
+            "registrant_name": "Netprotect",
+            "registrant_location": "Louis-Hafliger-Gasse 10, 1210 Wien Vienna   Austria"
+        },
+        {
+            "ip_address": "216.131.110.156",
+            "name": "NETPROTECT-VIE-DP",
+            "registrant_name": "Netprotect",
+            "registrant_location": "Louis-Hafliger-Gasse 10, 1210 Wien Vienna   Austria"
+        }
+    ]
+}
