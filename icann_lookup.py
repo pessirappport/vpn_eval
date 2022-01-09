@@ -9,7 +9,7 @@ def get_ip_list(ip_json):
     ip_list.append(ip_json['ip_leak']["ip_info"]["ip"])
     for i in ip_json["ip_leak"]["dns_info"]:
         ip_list.append(i["ip"])  
-
+    ip_list.append(ip_json["whoer"]["ip"])
     ip_list = [i for n, i in enumerate(ip_list) if i not in ip_list[:n]] 
     return ip_list
 
