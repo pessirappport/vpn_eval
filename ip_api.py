@@ -30,6 +30,7 @@ def get_ip_api_data():
     response = requests.get("http://edns.ip-api.com/json")
     dns_json_response = response.json()
     if json_response['status'] == 'fail':
+        print(json_response)
         print ("API limit exceeded for ip-api.com")
     else:
 

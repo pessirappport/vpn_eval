@@ -2,8 +2,8 @@ import requests
 
 def get_ip_list(ip_json):
     ip_list = []
-    if (ip_json["ip_api"]["ipInfo"]["query"]): ip_list.append(ip_json["ip_api"]["ipInfo"]["query"])
-    if (ip_json["ip_api"]["dnsInfo"]["ip"]): ip_list.append(ip_json["ip_api"]["dnsInfo"]["ip"])
+    if (ip_json["ip_api"]["ipInfo"]): ip_list.append(ip_json["ip_api"]["ipInfo"]["query"])
+    if (ip_json["ip_api"]["dnsInfo"]): ip_list.append(ip_json["ip_api"]["dnsInfo"]["ip"])
     for i in ip_json["dns_leak_test"]:
         ip_list.append(i["ip"])
     ip_list.append(ip_json['ip_leak']["ip_info"]["ip"])
