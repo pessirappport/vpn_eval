@@ -22,6 +22,7 @@ def get_ip_api_data():
             }
         }
     ip = requests.get('https://ipapi.co/ip/').text
+    key = "riWnWmVRqcqDI7NHPp3832mmT5wDNG3VhihAvBM85oTzh5r2iD"
     #get ip information
     response = requests.get("http://ip-api.com/json/{}?fields=status,message,country,regionName,city,lat,lon,isp,mobile,proxy,hosting,query".format(ip))
     json_response = response.json()
