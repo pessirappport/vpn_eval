@@ -2,73 +2,180 @@
     "ip_api": {
         "ipInfo": {
             "status": "success",
-            "country": "Australia",
-            "regionName": "New South Wales",
-            "city": "Sydney",
+            "country": "United States",
+            "regionName": "Maryland",
+            "city": "Olney",
             "lat-lon": [
-                -33.8601,
-                151.2101
+                39.1585,
+                -77.0837
             ],
             "lat-lon-resolve": [
-                "Sydney",
-                "New South Wales",
-                "Australia"
+                "Olney",
+                "Maryland",
+                "United States"
             ],
-            "isp": "Freedomtech solutions",
+            "isp": "Verizon Communications",
             "mobile": false,
             "proxy": false,
             "hosting": false,
-            "query": "154.16.81.205"
+            "query": "141.156.32.77"
         },
         "dnsInfo": {
-            "geo": "Australia - Freedomtech solutions",
-            "ip": "154.16.81.8"
+            "geo": "United States - MCI Communications Services, Inc. d/b/a Verizon Business",
+            "ip": "71.242.0.138"
         }
     },
     "dns_leak_test": [
         {
-            "ip": "154.16.81.8",
+            "ip": "71.242.0.132",
             "hostname": "None",
-            "isp": "Heficed",
-            "country": "Australia"
+            "isp": "Verizon Internet Services",
+            "country": "United States"
+        },
+        {
+            "ip": "71.242.0.134",
+            "hostname": "None",
+            "isp": "Verizon Internet Services",
+            "country": "United States"
+        },
+        {
+            "ip": "71.242.0.144",
+            "hostname": "None",
+            "isp": "Verizon Internet Services",
+            "country": "United States"
+        },
+        {
+            "ip": "71.242.0.148",
+            "hostname": "None",
+            "isp": "Verizon Internet Services",
+            "country": "United States"
+        },
+        {
+            "ip": "71.242.0.150",
+            "hostname": "None",
+            "isp": "Verizon Internet Services",
+            "country": "United States"
         }
     ],
     "ip_leak": {
         "ip_info": {
-            "ip": "154.16.81.205",
-            "region": "New South Wales",
-            "country": "Australia"
+            "ip": "141.156.32.77",
+            "region": "Maryland",
+            "country": "United States"
         },
         "dns_info": [
             {
-                "ip": "154.16.81.8",
-                "region": "New South Wales",
-                "country": "Australia"
+                "ip": "71.242.0.150",
+                "region": "Pennsylvania",
+                "country": "United States"
+            },
+            {
+                "ip": "71.242.0.148",
+                "region": "Pennsylvania",
+                "country": "United States"
+            },
+            {
+                "ip": "71.242.0.140",
+                "region": "Pennsylvania",
+                "country": "United States"
+            },
+            {
+                "ip": "71.242.0.144",
+                "region": "Pennsylvania",
+                "country": "United States"
+            },
+            {
+                "ip": "71.242.0.132",
+                "region": "Pennsylvania",
+                "country": "United States"
+            },
+            {
+                "ip": "71.242.0.142",
+                "region": "Pennsylvania",
+                "country": "United States"
+            },
+            {
+                "ip": "71.242.0.138",
+                "region": "Pennsylvania",
+                "country": "United States"
+            },
+            {
+                "ip": "71.242.0.136",
+                "region": "Pennsylvania",
+                "country": "United States"
             }
         ],
         "system_discrepancies": "No discrepancies noted."
     },
     "whoer": {
-        "ip": "154.16.81.205",
-        "dns": "",
+        "ip": "141.156.32.77",
+        "dns": "71.242.0.136",
         "proxy": "No",
         "anonymizer": "No",
         "blacklist": "No",
-        "timezone": "AEDT",
-        "system_discrepancies": "Time zone different for local and system"
+        "timezone": "EST",
+        "system_discrepancies": "None noted"
     },
     "icann_lookup": [
         {
-            "ip_address": "154.16.81.205",
-            "name": "NET154",
-            "registrant_name": "African Network Information Center",
-            "registrant_location": "Level 11ABC  Raffles Tower  Lot 19, Cybercity Ebene   Mauritius"
+            "ip_address": "141.156.32.77",
+            "name": "VZ-DSLDIAL-RSTNVA-8",
+            "registrant_name": "Verizon Internet Services",
+            "registrant_location": "1880 Campus Commons Drive Reston VA 20191 United States"
         },
         {
-            "ip_address": "154.16.81.8",
-            "name": "NET154",
-            "registrant_name": "African Network Information Center",
-            "registrant_location": "Level 11ABC  Raffles Tower  Lot 19, Cybercity Ebene   Mauritius"
+            "ip_address": "71.242.0.138",
+            "name": "VIS-BLOCK",
+            "registrant_name": "Verizon Business",
+            "registrant_location": "22001 Loudoun County Pkwy Ashburn VA 20147 United States"
+        },
+        {
+            "ip_address": "71.242.0.132",
+            "name": "VIS-BLOCK",
+            "registrant_name": "Verizon Business",
+            "registrant_location": "22001 Loudoun County Pkwy Ashburn VA 20147 United States"
+        },
+        {
+            "ip_address": "71.242.0.134",
+            "name": "VIS-BLOCK",
+            "registrant_name": "Verizon Business",
+            "registrant_location": "22001 Loudoun County Pkwy Ashburn VA 20147 United States"
+        },
+        {
+            "ip_address": "71.242.0.144",
+            "name": "VIS-BLOCK",
+            "registrant_name": "Verizon Business",
+            "registrant_location": "22001 Loudoun County Pkwy Ashburn VA 20147 United States"
+        },
+        {
+            "ip_address": "71.242.0.148",
+            "name": "VIS-BLOCK",
+            "registrant_name": "Verizon Business",
+            "registrant_location": "22001 Loudoun County Pkwy Ashburn VA 20147 United States"
+        },
+        {
+            "ip_address": "71.242.0.150",
+            "name": "VIS-BLOCK",
+            "registrant_name": "Verizon Business",
+            "registrant_location": "22001 Loudoun County Pkwy Ashburn VA 20147 United States"
+        },
+        {
+            "ip_address": "71.242.0.140",
+            "name": "VIS-BLOCK",
+            "registrant_name": "Verizon Business",
+            "registrant_location": "22001 Loudoun County Pkwy Ashburn VA 20147 United States"
+        },
+        {
+            "ip_address": "71.242.0.142",
+            "name": "VIS-BLOCK",
+            "registrant_name": "Verizon Business",
+            "registrant_location": "22001 Loudoun County Pkwy Ashburn VA 20147 United States"
+        },
+        {
+            "ip_address": "71.242.0.136",
+            "name": "VIS-BLOCK",
+            "registrant_name": "Verizon Business",
+            "registrant_location": "22001 Loudoun County Pkwy Ashburn VA 20147 United States"
         }
     ]
 }
