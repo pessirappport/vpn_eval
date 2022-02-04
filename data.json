@@ -1,155 +1,8 @@
 {
-    "costa_rica": {
-        "ip_api": {
-            "ipInfo": {
-                "status": "success",
-                "country": "Costa Rica",
-                "regionName": "Provincia de San Jose",
-                "city": "San Jos\u00e9",
-                "lat-lon": [
-                    9.9347,
-                    -84.0709
-                ],
-                "lat-lon-resolve": [
-                    "San Jose",
-                    "San Jose",
-                    "Costa Rica"
-                ],
-                "isp": "M247 Ltd",
-                "mobile": false,
-                "proxy": true,
-                "hosting": true,
-                "query": "146.70.10.26"
-            },
-            "dnsInfo": {
-                "geo": "Costa Rica - M247 Ltd",
-                "ip": "146.70.10.15"
-            }
-        },
-        "dns_leak_test": [
-            {
-                "ip": "146.70.10.15",
-                "hostname": "None",
-                "isp": "M247 Ltd",
-                "country": "Costa Rica"
-            }
-        ],
-        "ip_leak": {
-            "ip_info": {
-                "ip": "146.70.10.26",
-                "region": "Provincia de San Jose",
-                "country": "Costa Rica"
-            },
-            "dns_info": [
-                {
-                    "ip": "146.70.10.15",
-                    "region": "Provincia de San Jose",
-                    "country": "Costa Rica"
-                }
-            ],
-            "system_discrepancies": "No discrepancies noted."
-        },
-        "whoer": {
-            "ip": "146.70.10.26",
-            "dns": "",
-            "proxy": "No",
-            "anonymizer": "No",
-            "blacklist": "No",
-            "timezone": "CST",
-            "system_discrepancies": "Time zone different for local and system"
-        },
-        "icann_lookup": [
-            {
-                "ip_address": "146.70.10.26",
-                "name": "M247-Costa-Rica",
-                "registrant_name": "unknown",
-                "registrant_location": "unknown"
-            },
-            {
-                "ip_address": "146.70.10.15",
-                "name": "M247-Costa-Rica",
-                "registrant_name": "unknown",
-                "registrant_location": "unknown"
-            }
-        ]
-    }
-}{
-    "costa_rica": {
-        "ip_api": {
-            "ipInfo": {
-                "status": "success",
-                "country": "Costa Rica",
-                "regionName": "Provincia de San Jose",
-                "city": "San Jos\u00e9",
-                "lat-lon": [
-                    9.9347,
-                    -84.0709
-                ],
-                "lat-lon-resolve": [
-                    "San Jose",
-                    "San Jose",
-                    "Costa Rica"
-                ],
-                "isp": "M247 Ltd",
-                "mobile": false,
-                "proxy": true,
-                "hosting": true,
-                "query": "146.70.10.26"
-            },
-            "dnsInfo": {
-                "geo": "Costa Rica - M247 Ltd",
-                "ip": "146.70.10.15"
-            }
-        },
-        "dns_leak_test": [
-            {
-                "ip": "146.70.10.15",
-                "hostname": "None",
-                "isp": "M247 Ltd",
-                "country": "Costa Rica"
-            }
-        ],
-        "ip_leak": {
-            "ip_info": {
-                "ip": "146.70.10.26",
-                "region": "Provincia de San Jose",
-                "country": "Costa Rica"
-            },
-            "dns_info": [
-                {
-                    "ip": "146.70.10.15",
-                    "region": "Provincia de San Jose",
-                    "country": "Costa Rica"
-                }
-            ],
-            "system_discrepancies": "No discrepancies noted."
-        },
-        "whoer": {
-            "ip": "146.70.10.26",
-            "dns": "",
-            "proxy": "No",
-            "anonymizer": "No",
-            "blacklist": "No",
-            "timezone": "CST",
-            "system_discrepancies": "Time zone different for local and system"
-        },
-        "icann_lookup": [
-            {
-                "ip_address": "146.70.10.26",
-                "name": "M247-Costa-Rica",
-                "registrant_name": "unknown",
-                "registrant_location": "unknown"
-            },
-            {
-                "ip_address": "146.70.10.15",
-                "name": "M247-Costa-Rica",
-                "registrant_name": "unknown",
-                "registrant_location": "unknown"
-            }
-        ]
-    }
-}{
-    "spain": {
+    "north_america": {},
+    "south_america": {},
+    "africa": {},
+    "europe": {
         "ip_api": {
             "ipInfo": {
                 "status": "success",
@@ -169,30 +22,30 @@
                 "mobile": false,
                 "proxy": true,
                 "hosting": true,
-                "query": "212.102.49.199"
+                "query": "212.102.49.70"
             },
             "dnsInfo": {
-                "geo": "Spain - DataCamp Limited",
-                "ip": "212.102.49.185"
+                "geo": "Spain - Datacamp Limited",
+                "ip": "195.181.167.33"
             }
         },
         "dns_leak_test": [
             {
-                "ip": "212.102.49.185",
-                "hostname": "unn-212-102-49-185.cdn77.com.",
+                "ip": "195.181.167.33",
+                "hostname": "unn-195-181-167-33.datapacket.com.",
                 "isp": "Datacamp Limited",
                 "country": "Spain"
             }
         ],
         "ip_leak": {
             "ip_info": {
-                "ip": "212.102.49.199",
+                "ip": "212.102.49.70",
                 "region": "Madrid",
                 "country": "Spain"
             },
             "dns_info": [
                 {
-                    "ip": "212.102.49.185",
+                    "ip": "195.181.167.33",
                     "region": "Madrid",
                     "country": "Spain"
                 }
@@ -200,7 +53,7 @@
             "system_discrepancies": "No discrepancies noted."
         },
         "whoer": {
-            "ip": "212.102.49.199",
+            "ip": "212.102.49.70",
             "dns": "",
             "proxy": "No",
             "anonymizer": "No",
@@ -210,17 +63,19 @@
         },
         "icann_lookup": [
             {
-                "ip_address": "212.102.49.199",
+                "ip_address": "212.102.49.70",
                 "name": "CDN77-MAD",
                 "registrant_name": "unknown",
                 "registrant_location": "unknown"
             },
             {
-                "ip_address": "212.102.49.185",
-                "name": "CDN77-MAD",
+                "ip_address": "195.181.167.33",
+                "name": "CDN77-MADRID",
                 "registrant_name": "unknown",
                 "registrant_location": "unknown"
             }
         ]
-    }
+    },
+    "asia": {},
+    "australia": {}
 }

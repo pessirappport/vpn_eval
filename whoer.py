@@ -11,6 +11,8 @@ def get_whoer_data():
     op = webdriver.ChromeOptions()
     op.add_argument('headless')
     op.add_argument('log-level=3')
+    op.add_experimental_option('excludeSwitches', ['enable-logging'])
+
     driver = webdriver.Chrome(options=op)
 
     driver.get("http://whoer.net")

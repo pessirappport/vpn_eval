@@ -18,30 +18,30 @@
             "mobile": false,
             "proxy": true,
             "hosting": true,
-            "query": "212.102.49.199"
+            "query": "212.102.49.70"
         },
         "dnsInfo": {
-            "geo": "Spain - DataCamp Limited",
-            "ip": "212.102.49.185"
+            "geo": "Spain - Datacamp Limited",
+            "ip": "195.181.167.33"
         }
     },
     "dns_leak_test": [
         {
-            "ip": "212.102.49.185",
-            "hostname": "unn-212-102-49-185.cdn77.com.",
+            "ip": "195.181.167.33",
+            "hostname": "unn-195-181-167-33.datapacket.com.",
             "isp": "Datacamp Limited",
             "country": "Spain"
         }
     ],
     "ip_leak": {
         "ip_info": {
-            "ip": "212.102.49.199",
+            "ip": "212.102.49.70",
             "region": "Madrid",
             "country": "Spain"
         },
         "dns_info": [
             {
-                "ip": "212.102.49.185",
+                "ip": "195.181.167.33",
                 "region": "Madrid",
                 "country": "Spain"
             }
@@ -49,7 +49,7 @@
         "system_discrepancies": "No discrepancies noted."
     },
     "whoer": {
-        "ip": "212.102.49.199",
+        "ip": "212.102.49.70",
         "dns": "",
         "proxy": "No",
         "anonymizer": "No",
@@ -59,14 +59,14 @@
     },
     "icann_lookup": [
         {
-            "ip_address": "212.102.49.199",
+            "ip_address": "212.102.49.70",
             "name": "CDN77-MAD",
             "registrant_name": "unknown",
             "registrant_location": "unknown"
         },
         {
-            "ip_address": "212.102.49.185",
-            "name": "CDN77-MAD",
+            "ip_address": "195.181.167.33",
+            "name": "CDN77-MADRID",
             "registrant_name": "unknown",
             "registrant_location": "unknown"
         }

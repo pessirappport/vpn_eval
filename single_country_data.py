@@ -32,7 +32,5 @@ def get_single_country_data():
     ip_json["icann_lookup"] = icann_lookup_data
 
 
-    with open('mock_data.json', 'w') as outfile:
-        json.dump(ip_json, outfile, indent=4)
-    
+
     return (ip_json)
