@@ -2,14 +2,15 @@ import requests
 
 def get_ip_list(ip_json):
     ip_list = []
-    if (ip_json["ip_api"]["ipInfo"]): ip_list.append(ip_json["ip_api"]["ipInfo"]["query"])
-    if (ip_json["ip_api"]["dnsInfo"]): ip_list.append(ip_json["ip_api"]["dnsInfo"]["ip"])
+    if (ip_json["ip_api"]["ipInfo"]["query"]): ip_list.append(ip_json["ip_api"]["ipInfo"]["query"])
+    if (ip_json["ip_api"]["dnsInfo"]["ip"]): ip_list.append(ip_json["ip_api"]["dnsInfo"]["ip"])
     for i in ip_json["dns_leak_test"]:
         ip_list.append(i["ip"])
     ip_list.append(ip_json['ip_leak']["ip_info"]["ip"])
     for i in ip_json["ip_leak"]["dns_info"]:
-        ip_list.append(i["ip"])  
-    ip_list.append(ip_json["whoer"]["ip"])
+        ip_list.append(i["ip"]) 
+    ip_list.append(ip_json["whoer"]["ip"]) 
+
     ip_list = [i for n, i in enumerate(ip_list) if i not in ip_list[:n]] 
     return ip_list
 
@@ -22,7 +23,6 @@ def get_icann_lookup_data(ip_json):
 
     icann_lookup_json = []
     for ip in list_ip:
-        print(ip)
         response = requests.get('https://rdap.arin.net/registry/ip/'+ip)
         response_json = response.json()
 
