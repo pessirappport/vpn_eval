@@ -1,81 +1,150 @@
 {
-    "north_america": {},
-    "south_america": {},
-    "africa": {},
-    "europe": {
-        "ip_api": {
-            "ipInfo": {
-                "status": "success",
-                "country": "Spain",
-                "regionName": "Madrid",
-                "city": "Madrid",
-                "lat-lon": [
-                    40.4163,
-                    -3.6934
-                ],
-                "lat-lon-resolve": [
-                    "Madrid",
-                    "Community of Madrid",
-                    "Spain"
-                ],
-                "isp": "DataCamp Limited",
-                "mobile": false,
-                "proxy": true,
-                "hosting": true,
-                "query": "212.102.49.70"
-            },
-            "dnsInfo": {
-                "geo": "Spain - Datacamp Limited",
-                "ip": "195.181.167.33"
-            }
-        },
-        "dns_leak_test": [
-            {
-                "ip": "195.181.167.33",
-                "hostname": "unn-195-181-167-33.datapacket.com.",
-                "isp": "Datacamp Limited",
-                "country": "Spain"
-            }
+  "americas": {
+    "ip_api": {
+      "ipInfo": {
+        "status": "success",
+        "country": "Panama",
+        "regionName": "Provincia de Panama",
+        "city": "Panama City",
+        "lat-lon": [
+          8.9658,
+          -79.5321
         ],
-        "ip_leak": {
-            "ip_info": {
-                "ip": "212.102.49.70",
-                "region": "Madrid",
-                "country": "Spain"
-            },
-            "dns_info": [
-                {
-                    "ip": "195.181.167.33",
-                    "region": "Madrid",
-                    "country": "Spain"
-                }
-            ],
-            "system_discrepancies": "No discrepancies noted."
-        },
-        "whoer": {
-            "ip": "212.102.49.70",
-            "dns": "",
-            "proxy": "No",
-            "anonymizer": "No",
-            "blacklist": "No",
-            "timezone": "CET",
-            "system_discrepancies": "Time zone different for local and system"
-        },
-        "icann_lookup": [
-            {
-                "ip_address": "212.102.49.70",
-                "name": "CDN77-MAD",
-                "registrant_name": "unknown",
-                "registrant_location": "unknown"
-            },
-            {
-                "ip_address": "195.181.167.33",
-                "name": "CDN77-MADRID",
-                "registrant_name": "unknown",
-                "registrant_location": "unknown"
-            }
-        ]
+        "lat-lon-resolve": [
+          "Panama City",
+          "Panam\u00e1",
+          "Panama"
+        ],
+        "isp": "M247 Ltd",
+        "mobile": false,
+        "proxy": true,
+        "hosting": true,
+        "query": "91.90.126.21"
+      },
+      "dnsInfo": {
+        "geo": "Panama - M247 Ltd",
+        "ip": "91.90.126.20"
+      }
     },
-    "asia": {},
-    "australia": {}
+    "dns_leak_test": [
+      {
+        "ip": "91.90.126.20",
+        "hostname": "None",
+        "isp": "M247 Ltd",
+        "country": "Panama"
+      }
+    ],
+    "ip_leak": {
+      "ip_info": {
+        "ip": "91.90.126.21",
+        "region": "Provincia de Panama",
+        "country": "Panama"
+      },
+      "dns_info": [
+        {
+          "ip": "91.90.126.20",
+          "region": "Provincia de Panama",
+          "country": "Panama"
+        }
+      ],
+      "system_discrepancies": "No discrepancies noted."
+    },
+    "whoer": {
+      "ip": "91.90.126.21",
+      "dns": "",
+      "proxy": "No",
+      "anonymizer": "No",
+      "blacklist": "No",
+      "timezone": "EST",
+      "system_discrepancies": "None noted"
+    },
+    "icann_lookup": [
+      {
+        "ip_address": "91.90.126.21",
+        "name": "M247-LOS-ANGELES",
+        "registrant_name": "unknown",
+        "registrant_location": "unknown"
+      },
+      {
+        "ip_address": "91.90.126.20",
+        "name": "M247-LOS-ANGELES",
+        "registrant_name": "unknown",
+        "registrant_location": "unknown"
+      }
+    ]
+  },
+  "europe": {
+    "ip_api": {
+      "ipInfo": {
+        "status": "success",
+        "country": "Latvia",
+        "regionName": "Riga",
+        "city": "Riga",
+        "lat-lon": [
+          56.9496,
+          24.0978
+        ],
+        "lat-lon-resolve": [
+          "Riga",
+          "Riga",
+          "Latvia"
+        ],
+        "isp": "DataClub S.A.",
+        "mobile": false,
+        "proxy": true,
+        "hosting": true,
+        "query": "46.183.218.140"
+      },
+      "dnsInfo": {
+        "geo": "Latvia - DataClub S.A.",
+        "ip": "46.183.218.130"
+      }
+    },
+    "dns_leak_test": [
+      {
+        "ip": "46.183.218.130",
+        "hostname": "ip-218-130.dataclub.info.",
+        "isp": "DataClub S.A.",
+        "country": "Latvia"
+      }
+    ],
+    "ip_leak": {
+      "ip_info": {
+        "ip": "46.183.218.140",
+        "region": "Riga",
+        "country": "Latvia"
+      },
+      "dns_info": [
+        {
+          "ip": "46.183.218.130",
+          "region": "Riga",
+          "country": "Latvia"
+        }
+      ],
+      "system_discrepancies": "No discrepancies noted."
+    },
+    "whoer": {
+      "ip": "46.183.218.140",
+      "dns": "",
+      "proxy": "No",
+      "anonymizer": "No",
+      "blacklist": "No",
+      "timezone": "EET",
+      "system_discrepancies": "Time zone different for local and system"
+    },
+    "icann_lookup": [
+      {
+        "ip_address": "46.183.218.140",
+        "name": "DATACLUB",
+        "registrant_name": "unknown",
+        "registrant_location": "unknown"
+      },
+      {
+        "ip_address": "46.183.218.130",
+        "name": "DATACLUB",
+        "registrant_name": "unknown",
+        "registrant_location": "unknown"
+      }
+    ]
+  }
 }
