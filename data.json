@@ -1,75 +1,149 @@
 {
-  "americas": {
+  "oceania": {
     "ip_api": {
       "ipInfo": {
         "status": "success",
-        "country": "Panama",
-        "regionName": "Provincia de Panama",
-        "city": "Panama City",
+        "country": "New Zealand",
+        "regionName": "Auckland",
+        "city": "Auckland",
         "lat-lon": [
-          8.9658,
-          -79.5321
+          -36.8506,
+          174.7679
         ],
         "lat-lon-resolve": [
-          "Panama City",
-          "Panam\u00e1",
-          "Panama"
+          "Auckland",
+          "Auckland",
+          "New Zealand"
         ],
-        "isp": "M247 Ltd",
+        "isp": "Servers Australia Pty. Ltd",
         "mobile": false,
         "proxy": true,
         "hosting": true,
-        "query": "91.90.126.21"
+        "query": "179.61.240.156"
       },
       "dnsInfo": {
-        "geo": "Panama - M247 Ltd",
-        "ip": "91.90.126.20"
+        "geo": "New Zealand - Servers Australia Pty Ltd",
+        "ip": "202.60.86.66"
       }
     },
     "dns_leak_test": [
       {
-        "ip": "91.90.126.20",
+        "ip": "202.60.86.66",
         "hostname": "None",
-        "isp": "M247 Ltd",
-        "country": "Panama"
+        "isp": "ServersAustralia",
+        "country": "Australia"
       }
     ],
     "ip_leak": {
       "ip_info": {
-        "ip": "91.90.126.21",
-        "region": "Provincia de Panama",
-        "country": "Panama"
+        "ip": "179.61.240.156",
+        "region": "Auckland",
+        "country": "New Zealand"
       },
       "dns_info": [
         {
-          "ip": "91.90.126.20",
-          "region": "Provincia de Panama",
-          "country": "Panama"
+          "ip": "202.60.86.66",
+          "region": null,
+          "country": "Australia"
+        }
+      ],
+      "system_discrepancies": "IP addresses resolved to different locations. Australia resolved to New Zealand"
+    },
+    "whoer": {
+      "ip": "179.61.240.156",
+      "dns": "202.60.86.66",
+      "proxy": "No",
+      "anonymizer": "No",
+      "blacklist": "No",
+      "timezone": "NZDT",
+      "system_discrepancies": "Time zone different for local and system"
+    },
+    "icann_lookup": [
+      {
+        "ip_address": "179.61.240.156",
+        "name": "unknown",
+        "registrant_name": "Digital Energy Technologies Chile SpA",
+        "registrant_location": "unknown"
+      },
+      {
+        "ip_address": "202.60.86.66",
+        "name": "SAU-NET-AU",
+        "registrant_name": "AS45671 Network Operations",
+        "registrant_location": "unknown"
+      }
+    ]
+  },
+  "africa": {
+    "ip_api": {
+      "ipInfo": {
+        "status": "success",
+        "country": "South Africa",
+        "regionName": "Gauteng",
+        "city": "Johannesburg",
+        "lat-lon": [
+          -26.3811,
+          27.8376
+        ],
+        "lat-lon-resolve": [
+          "Lenasia South",
+          "Gauteng",
+          "South Africa"
+        ],
+        "isp": "Fiber Grid INC",
+        "mobile": false,
+        "proxy": true,
+        "hosting": false,
+        "query": "196.240.127.221"
+      },
+      "dnsInfo": {
+        "geo": "South Africa - Fiber Grid INC",
+        "ip": "196.240.127.213"
+      }
+    },
+    "dns_leak_test": [
+      {
+        "ip": "196.240.127.213",
+        "hostname": "None",
+        "isp": "Fibergrid",
+        "country": "South Africa"
+      }
+    ],
+    "ip_leak": {
+      "ip_info": {
+        "ip": "196.240.127.221",
+        "region": "Gauteng",
+        "country": "South Africa"
+      },
+      "dns_info": [
+        {
+          "ip": "196.240.127.213",
+          "region": "Gauteng",
+          "country": "South Africa"
         }
       ],
       "system_discrepancies": "No discrepancies noted."
     },
     "whoer": {
-      "ip": "91.90.126.21",
-      "dns": "",
+      "ip": "196.240.127.221",
+      "dns": "196.240.127.213",
       "proxy": "No",
       "anonymizer": "No",
       "blacklist": "No",
-      "timezone": "EST",
-      "system_discrepancies": "None noted"
+      "timezone": "SAST",
+      "system_discrepancies": "Time zone different for local and system"
     },
     "icann_lookup": [
       {
-        "ip_address": "91.90.126.21",
-        "name": "M247-LOS-ANGELES",
-        "registrant_name": "unknown",
-        "registrant_location": "unknown"
+        "ip_address": "196.240.127.221",
+        "name": "NET196",
+        "registrant_name": "African Network Information Center",
+        "registrant_location": "Level 11ABC  Raffles Tower  Lot 19, Cybercity Ebene   Mauritius"
       },
       {
-        "ip_address": "91.90.126.20",
-        "name": "M247-LOS-ANGELES",
-        "registrant_name": "unknown",
-        "registrant_location": "unknown"
+        "ip_address": "196.240.127.213",
+        "name": "NET196",
+        "registrant_name": "African Network Information Center",
+        "registrant_location": "Level 11ABC  Raffles Tower  Lot 19, Cybercity Ebene   Mauritius"
       }
     ]
   },
@@ -77,71 +151,145 @@
     "ip_api": {
       "ipInfo": {
         "status": "success",
-        "country": "Latvia",
-        "regionName": "Riga",
-        "city": "Riga",
+        "country": "United Kingdom",
+        "regionName": "England",
+        "city": "London",
         "lat-lon": [
-          56.9496,
-          24.0978
+          51.5095,
+          -0.0955
         ],
         "lat-lon-resolve": [
-          "Riga",
-          "Riga",
-          "Latvia"
+          "London",
+          "England",
+          "United Kingdom"
         ],
-        "isp": "DataClub S.A.",
-        "mobile": false,
+        "isp": "DataCamp Limited",
+        "mobile": true,
         "proxy": true,
         "hosting": true,
-        "query": "46.183.218.140"
+        "query": "143.244.38.25"
       },
       "dnsInfo": {
-        "geo": "Latvia - DataClub S.A.",
-        "ip": "46.183.218.130"
+        "geo": "United Kingdom - DataCamp Limited",
+        "ip": "143.244.38.1"
       }
     },
     "dns_leak_test": [
       {
-        "ip": "46.183.218.130",
-        "hostname": "ip-218-130.dataclub.info.",
-        "isp": "DataClub S.A.",
-        "country": "Latvia"
+        "ip": "143.244.38.1",
+        "hostname": "unn-143-244-38-1.datapacket.com.",
+        "isp": "Datacamp Limited",
+        "country": "United Kingdom"
       }
     ],
     "ip_leak": {
       "ip_info": {
-        "ip": "46.183.218.140",
-        "region": "Riga",
-        "country": "Latvia"
+        "ip": "143.244.38.25",
+        "region": "England",
+        "country": "United Kingdom"
       },
       "dns_info": [
         {
-          "ip": "46.183.218.130",
-          "region": "Riga",
-          "country": "Latvia"
+          "ip": "143.244.38.1",
+          "region": "England",
+          "country": "United Kingdom"
         }
       ],
       "system_discrepancies": "No discrepancies noted."
     },
     "whoer": {
-      "ip": "46.183.218.140",
+      "ip": "143.244.38.25",
       "dns": "",
       "proxy": "No",
       "anonymizer": "No",
       "blacklist": "No",
-      "timezone": "EET",
+      "timezone": "GMT",
       "system_discrepancies": "Time zone different for local and system"
     },
     "icann_lookup": [
       {
-        "ip_address": "46.183.218.140",
-        "name": "DATACLUB",
+        "ip_address": "143.244.38.25",
+        "name": "CDN77-LON",
         "registrant_name": "unknown",
         "registrant_location": "unknown"
       },
       {
-        "ip_address": "46.183.218.130",
-        "name": "DATACLUB",
+        "ip_address": "143.244.38.1",
+        "name": "CDN77-LON",
+        "registrant_name": "unknown",
+        "registrant_location": "unknown"
+      }
+    ]
+  },
+  "americas": {
+    "ip_api": {
+      "ipInfo": {
+        "status": "success",
+        "country": "Mexico",
+        "regionName": "Mexico City",
+        "city": "Mexico City",
+        "lat-lon": [
+          19.6235,
+          -99.15
+        ],
+        "lat-lon-resolve": [
+          "Fuentes del Valle",
+          "Mexico",
+          "Mexico"
+        ],
+        "isp": "M247 Ltd",
+        "mobile": false,
+        "proxy": true,
+        "hosting": true,
+        "query": "77.81.142.197"
+      },
+      "dnsInfo": {
+        "geo": "Mexico - M247 Ltd",
+        "ip": "77.81.142.194"
+      }
+    },
+    "dns_leak_test": [
+      {
+        "ip": "77.81.142.194",
+        "hostname": "None",
+        "isp": "M247 Ltd",
+        "country": "Mexico"
+      }
+    ],
+    "ip_leak": {
+      "ip_info": {
+        "ip": "77.81.142.197",
+        "region": "Mexico City",
+        "country": "Mexico"
+      },
+      "dns_info": [
+        {
+          "ip": "77.81.142.194",
+          "region": "Mexico City",
+          "country": "Mexico"
+        }
+      ],
+      "system_discrepancies": "No discrepancies noted."
+    },
+    "whoer": {
+      "ip": "77.81.142.197",
+      "dns": "",
+      "proxy": "No",
+      "anonymizer": "No",
+      "blacklist": "No",
+      "timezone": "CST",
+      "system_discrepancies": "Time zone different for local and system"
+    },
+    "icann_lookup": [
+      {
+        "ip_address": "77.81.142.197",
+        "name": "M247-LTD-MEXICO",
+        "registrant_name": "unknown",
+        "registrant_location": "unknown"
+      },
+      {
+        "ip_address": "77.81.142.194",
+        "name": "M247-LTD-MEXICO",
         "registrant_name": "unknown",
         "registrant_location": "unknown"
       }

@@ -3,6 +3,7 @@ import json
 
 from single_country_data import get_single_country_data
 from countries_in_continent import get_countries_in_continents
+
 print("get_single_country_data")
 master_json = {
         "americas":{},
@@ -16,7 +17,8 @@ master_json = {
 ip_json = get_single_country_data()
 countries_list = get_countries_in_continents()
 country = ip_json["ip_api"]["ipInfo"]["country"]
-country = country.replace(" ","_")
+if (country == "United Kingdom"):
+    country = "United Kingdom of Great Britain and Northern Ireland"
 print(country)
 
 #find which continent it is in
@@ -36,8 +38,11 @@ with open('data.json') as json_file:
     else:
         data[continent] = ip_json
 
-with open('data.json', 'w') as outfile:
-    json.dump(data, outfile, indent = 2)
+with open('data.json', 'w') as json_file:
+    json.dump(data, json_file, 
+                        indent=2,  
+                        separators=(',',': '))
+
     
 
 
