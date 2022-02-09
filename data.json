@@ -294,5 +294,79 @@
         "registrant_location": "unknown"
       }
     ]
+  },
+  "asia": {
+    "ip_api": {
+      "ipInfo": {
+        "status": "success",
+        "country": "Japan",
+        "regionName": "Tokyo",
+        "city": "Tokyo",
+        "lat-lon": [
+          35.6893,
+          139.6899
+        ],
+        "lat-lon-resolve": [
+          "Tokyo",
+          "",
+          "Japan"
+        ],
+        "isp": "DataCamp Limited",
+        "mobile": false,
+        "proxy": true,
+        "hosting": true,
+        "query": "156.146.34.152"
+      },
+      "dnsInfo": {
+        "geo": "Japan - DataCamp Limited",
+        "ip": "156.146.34.129"
+      }
+    },
+    "dns_leak_test": [
+      {
+        "ip": "156.146.34.129",
+        "hostname": "unn-156-146-34-129.cdn77.com.",
+        "isp": "Datacamp Limited",
+        "country": "Japan"
+      }
+    ],
+    "ip_leak": {
+      "ip_info": {
+        "ip": "156.146.34.152",
+        "region": "Tokyo",
+        "country": "Japan"
+      },
+      "dns_info": [
+        {
+          "ip": "156.146.34.129",
+          "region": "Tokyo",
+          "country": "Japan"
+        }
+      ],
+      "system_discrepancies": "No discrepancies noted."
+    },
+    "whoer": {
+      "ip": "156.146.34.152",
+      "dns": "",
+      "proxy": "No",
+      "anonymizer": "No",
+      "blacklist": "No",
+      "timezone": "JST",
+      "system_discrepancies": "Time zone different for local and system"
+    },
+    "icann_lookup": [
+      {
+        "ip_address": "156.146.34.152",
+        "name": "CDN77_TYO-EQ8",
+        "registrant_name": "unknown",
+        "registrant_location": "unknown"
+      },
+      {
+        "ip_address": "156.146.34.129",
+        "name": "CDN77_TYO-EQ8",
+        "registrant_name": "unknown",
+        "registrant_location": "unknown"
+      }
+    ]
   }
 }
