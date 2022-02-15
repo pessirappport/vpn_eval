@@ -3,7 +3,7 @@ import json
 import jsonschema
 from jsonschema import validate
 
-# read schemea into program
+# read schema into program
 schema_file = open('schema.json', encoding='utf-8')
 jsonSchema = json.load(schema_file)
 schema_file.close()
