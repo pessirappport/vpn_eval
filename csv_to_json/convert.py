@@ -16,6 +16,6 @@ def csv_to_json(csv_file_path, json_file_path):
     with open(json_file_path, 'w', encoding='utf-8') as jsonf:
         json_string = json.dumps(json_array, indent=4)
         jsonf.write(json_string)
-csv_file_path = r'vpn_eval.csv'
-json_file_path = r'data.json'
-csv_to_json(csv_file_path, json_file_path)
+CSV_FILE_PATH = r'vpn_eval.csv'
+JSON_FILE_PATH = r'data.json'
+csv_to_json(CSV_FILE_PATH, JSON_FILE_PATH)
