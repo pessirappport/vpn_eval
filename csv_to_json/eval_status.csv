@@ -62,7 +62,9 @@ Proxy Detection - detected with each server;"
 "Proton VPN","Ubuntu","Not Started",,,,,,,,
 "Proton VPN","Android","Not Started",,,,,,,,
 "Proton VPN","IoS","Not Started",,,,,,,,
-"Strong VPN","Windows 10","Not Started",,,,,,,,
+"Strong VPN","Windows 10","Complete","2/1/2022","Concerns","No Issues","No Issues","No Issues","Failures","Concerns","VPN/Proxy Detection: Identified by sites as a proxy in addition to three of the assigned IP addresses are leased by Strong Technology.
+Configuration: Of note is that the destination IP addresses from the host computer are the same IP addresses that are forwarded to the web by the VPN. Anyone monitoring may detect the host computer's origin.
+IP Ownership: Again, concern that many IP addresses were directly owned by Strong Technology."
 "Strong VPN","Ubuntu","Complete","1/27/2022","Concerns","Concerns","Failures","No Issues","Concerns","No Issues","Browser Geolocation: Inconsistent with greater than 50% failing to locate accurately. Google resolution included Los Angeles and Bing resolved to Largo, FL, USA. Google did not resolve accurately on any test.
 VPN Proxy - 50/50 chance to identify as behind a proxy based on testing.
 IP Geolocation: One Reverse IP detected during testing, resolving to EpicUp.com and physically to Scottsdale, AZ, USA.
