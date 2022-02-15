@@ -1,0 +1,115 @@
+VPN,Operating System,Status,Evaluation Date,Configuration,IP Geolocation,Browser Geolocation,DNS Status,VPN/Proxy Detection,IP Ownership,Notes
+"CyberGhost","Windows 10","Not Started",,,,,,,,
+"CyberGhost","Ubuntu","Not Started",,,,,,,,
+"CyberGhost","Android","Not Started",,,,,,,,
+"CyberGhost","IoS","Not Started",,,,,,,,
+"Encrypt.me","Windows 10","Not Started",,,,,,,,
+"Encrypt.me","Ubuntu","Not Started",,,,,,,,
+"Encrypt.me","Android","Not Started",,,,,,,,
+"Encrypt.me","IoS","Not Started",,,,,,,,
+"ExpressVPN","Windows 10","Not Started",,,,,,,,
+"ExpressVPN","Ubuntu","Not Started",,,,,,,,
+"ExpressVPN","Android","Not Started",,,,,,,,
+"ExpressVPN","IoS","Not Started",,,,,,,,
+"Hide.me","Windows 10","Not Started",,,,,,,,
+"Hide.me","Ubuntu","Not Started",,,,,,,,
+"Hide.me","Android","Not Started",,,,,,,,
+"Hide.me","IoS","Not Started",,,,,,,,
+"HideMyAss","Windows 10","Not Started",,,,,,,,
+"HideMyAss","Ubuntu","Not Started",,,,,,,,
+"HideMyAss","Android","Not Started",,,,,,,,
+"HideMyAss","IoS","Not Started",,,,,,,,
+"HotSpot Shield","Windows 10","Not Started",,,,,,,,
+"HotSpot Shield","Ubuntu","Not Started",,,,,,,,
+"HotSpot Shield","Android","Not Started",,,,,,,,
+"HotSpot Shield","IoS","Not Started",,,,,,,,
+"IPVanish","Windows 10","Complete","1/8/2022","No Issues","No Issues","Failures","No Issues","Concerns","No Issues","Geolocation Failures: As soon as browser was allowed to access location, it placed user at current location.
+Proxy Failures: Proxy use was consistently discovered. "
+"IPVanish","Ubuntu","Complete","1/14/2022","No Issues","Concerns","Concerns","No Issues","Failures","Concerns","Browser Geolocation - while on US server, browser geolocated to other cities in US; 
+IP Geolocation/ IP Ownership - while on US server, IP address traces back toIPVanish; 
+Proxy Detection - detected with each server;"
+"IPVanish","Android","Not Started",,,,,,,,
+"IPVanish","IoS","Not Started",,,,,,,,
+"IVPN","Windows 10","Not Started",,,,,,,,
+"IVPN","Ubuntu","Not Started",,,,,,,,
+"IVPN","Android","Not Started",,,,,,,,
+"IVPN","IoS","Not Started",,,,,,,,
+"LiquidVPN","Windows 10","Not Started",,,,,,,,
+"LiquidVPN","Ubuntu","Not Started",,,,,,,,
+"LiquidVPN","Android","Not Started",,,,,,,,
+"LiquidVPN","IoS","Not Started",,,,,,,,
+"NordVPN","Windows 10","Not Started",,,,,,,,
+"NordVPN","Ubuntu","Not Started",,,,,,,,
+"NordVPN","Android","Not Started",,,,,,,,
+"NordVPN","IoS","Not Started",,,,,,,,
+"Norton VPN","Windows 10","Not Started",,,,,,,,
+"Norton VPN","Ubuntu","Not Started",,,,,,,,
+"Norton VPN","Android","Not Started",,,,,,,,
+"Norton VPN","IoS","Not Started",,,,,,,,
+"Perfect-Privacy","Windows 10","Not Started",,,,,,,,
+"Perfect-Privacy","Ubuntu","Not Started",,,,,,,,
+"Perfect-Privacy","Android","Not Started",,,,,,,,
+"Perfect-Privacy","IoS","Not Started",,,,,,,,
+"Private Internet Access","Windows 10","Complete","12/21/2021","No Issues","No Issues","Failures","No Issues","Concerns","No Issues","Browser geolocation located to home address. Timezone (whoer.net) found discrepancies between local and system locations. LAT/LON coordinates resolved to right location, but sometimes landed in middle of bodies of water."
+"Private Internet Access","Ubuntu","Complete","12/17/2021","No Issues","No Issues","Concerns","Failures","Concerns","No Issues","Browser geolocation randomly showed different countries. Many DNS addresses detected and resolved to wrong locations. The South America IP address resolved to many US servers in San Francisco and Florida, a few South African addresses resolved to Singapore, and one of the Netherlands addresses resolved to a Brussels server."
+"Private Internet Access","Android","Not Started",,,,,,,,
+"Private Internet Access","IoS","Not Started",,,,,,,,
+"Private VPN","Windows 10","Not Started",,,,,,,,
+"Private VPN","Ubuntu","Not Started",,,,,,,,
+"Private VPN","Android","Not Started",,,,,,,,
+"Private VPN","IoS","Not Started",,,,,,,,
+"Proton VPN","Windows 10","Not Started",,,,,,,,
+"Proton VPN","Ubuntu","Not Started",,,,,,,,
+"Proton VPN","Android","Not Started",,,,,,,,
+"Proton VPN","IoS","Not Started",,,,,,,,
+"Strong VPN","Windows 10","Not Started",,,,,,,,
+"Strong VPN","Ubuntu","Complete","1/27/2022","Concerns","Concerns","Failures","No Issues","Concerns","No Issues","Browser Geolocation: Inconsistent with greater than 50% failing to locate accurately. Google resolution included Los Angeles and Bing resolved to Largo, FL, USA. Google did not resolve accurately on any test.
+VPN Proxy - 50/50 chance to identify as behind a proxy based on testing.
+IP Geolocation: One Reverse IP detected during testing, resolving to EpicUp.com and physically to Scottsdale, AZ, USA.
+Configuration: Ubuntu install requires download and install of config files for OpenVPN. IKEv2 available with manual configuration only."
+"Strong VPN","Android","Complete","1/14/2022","No Issues","No Issues","Concerns","No Issues","Concerns","Concerns","Browser Geolocation - Google did not resolve to the correct location. Yahoo had one resolution to Maretta, GA, USA (location of host IP address registrant).
+IP Ownership: IP addresses assigned in Canada, South Africa, and Korea were identical to addresses assigned in iOS testing on a different day. /// Detected a reverse IP assigned to EpicUp.com.
+VPN/Proxy Detection: Mixed results from different tests.
+Configuration: Very limited, only allows selection of three protocols."
+"Strong VPN","IoS","Complete","1/13/2022","Concerns","No Issues","Concerns","No Issues","Concerns","Concerns","Browser Geolocation - Google did not resolve to the correct location. Yahoo had one resolution to Maretta, GA, USA (location of host IP address registrant).
+IP Ownership: IP addresses assigned in Canada, South Africa, and Korea were identical to addresses assigned in Android testing on a different day. /// Detected a reverse IP assigned to EpicUp.com.
+VPN/Proxy Detection: Mixed results from different tests.
+Configuration: Very limited, only allows selection of three protocols."
+"SurfShark","Windows 10","Complete","12/16/2021","No Issues","No Issues","No Issues","No Issues","Concerns","No Issues","VPN/Proxy Detection: Proxy detected, use of known VPN exit nodes."
+"SurfShark","Ubuntu","Complete","12/15/2021","Concerns","No Issues","No Issues","Concerns","Concerns","No Issues","DNS Status: A USA based DNS was discovered while using a Tokyo, JP exit node; While using Berlin, GE exit node, Paris DNS discovered.
+VPN/Proxy Detection: Identified as a VPN/Proxy connection several times, associated with known VPN exit nodes.
+Configuration: Limited to OpenVPN, no client requires manual setup."
+"SurfShark","Android","Complete","12/8/2021","Failures","No Issues","No Issues","No Issues","Concerns","Concerns","Configuration - WebRTC leak exposed true IP address.
+Proxy Detection - Mixed results.
+IP Ownership - Several of the web hosts are marked as high risk due to background hosting VPN services."
+"SurfShark","IoS","Complete","12/13/2021","No Issues","No Issues","Failures","No Issues","No Issues","No Issues","Browser Geolocation - While using Safari, some sites failed consistently (Yahoo). When using the app for Maps, it failed with no means for the VPN to mask GPS functionality."
+"TorGuard","Windows 10","Not Started",,,,,,,,
+"TorGuard","Ubuntu","Not Started",,,,,,,,
+"TorGuard","Android","Not Started",,,,,,,,
+"TorGuard","IoS","Not Started",,,,,,,,
+"TunnelBear","Windows 10","Not Started",,,,,,,,
+"TunnelBear","Ubuntu","Not Started",,,,,,,,
+"TunnelBear","Android","Not Started",,,,,,,,
+"TunnelBear","IoS","Not Started",,,,,,,,
+"UltraVPN","Windows 10","Not Started",,,,,,,,
+"UltraVPN","Ubuntu","Not Started",,,,,,,,
+"UltraVPN","Android","Not Started",,,,,,,,
+"UltraVPN","IoS","Not Started",,,,,,,,
+"VPNArea","Windows 10","Not Started",,,,,,,,
+"VPNArea","Ubuntu","Not Started",,,,,,,,
+"VPNArea","Android","Not Started",,,,,,,,
+"VPNArea","IoS","Not Started",,,,,,,,
+"VyprVPN","Windows 10","Not Started",,,,,,,,
+"VyprVPN","Ubuntu","Not Started",,,,,,,,
+"VyprVPN","Android","Not Started",,,,,,,,
+"VyprVPN","IoS","Not Started",,,,,,,,
+"Winscribe","Windows 10","Not Started",,,,,,,,
+"Winscribe","Ubuntu","Not Started",,,,,,,,
+"Winscribe","Android","Not Started",,,,,,,,
+"Winscribe","IoS","Not Started",,,,,,,,
+"Mullvad","Windows 10","Not Started",,,,,,,,
+"Mullvad","Ubuntu","Not Started",,,,,,,,
+"Mullvad","Android","Not Started",,,,,,,,
+"Mullvad","IoS","Not Started",,,,,,,,
+"Apple Private Relay","IoS","Complete","12/20/2021","Concerns","No Issues","Concerns","No Issues","No Issues","No Issues","Overall Geolocation: If device location is enabled, applications and in some cases the browser will use the phone's location and not the exit node's location when conducting searches.
+Configuration: Limited to two choices for configuration: real location or a location in the same country/time zone; Only encrypts and routes browser (Safari) traffic through the VPN."

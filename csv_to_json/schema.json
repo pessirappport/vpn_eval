@@ -1,0 +1,1308 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "CyberGhost": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "Encrypt.me": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "ExpressVPN": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "Hide.me": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "HideMyAss": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "HotSpot Shield": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "IPVanish": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "IVPN": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "LiquidVPN": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "NordVPN": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "Norton VPN": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "Perfect-Privacy": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "Private Internet Access": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "Private VPN": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "Proton VPN": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "Strong VPN": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "SurfShark": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "TorGuard": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "TunnelBear": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "UltraVPN": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "VPNArea": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "VyprVPN": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "Winscribe": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "Mullvad": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    },
+    "Apple Private Relay": {
+      "type": "object",
+      "properties": {
+        "VPN": {
+          "type": "string"
+        },
+        "Operating System": {
+          "type": "string"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Evaluation Date": {
+          "type": "string"
+        },
+        "Configuration": {
+          "type": "string"
+        },
+        "IP Geolocation": {
+          "type": "string"
+        },
+        "Browser Geolocation": {
+          "type": "string"
+        },
+        "DNS Status": {
+          "type": "string"
+        },
+        "VPN/Proxy Detection": {
+          "type": "string"
+        },
+        "IP Ownership": {
+          "type": "string"
+        },
+        "Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "VPN",
+        "Operating System",
+        "Status",
+        "Evaluation Date",
+        "Configuration",
+        "IP Geolocation",
+        "Browser Geolocation",
+        "DNS Status",
+        "VPN/Proxy Detection",
+        "IP Ownership",
+        "Notes"
+      ]
+    }
+  },
+  "required": [
+    "CyberGhost",
+    "Encrypt.me",
+    "ExpressVPN",
+    "Hide.me",
+    "HideMyAss",
+    "HotSpot Shield",
+    "IPVanish",
+    "IVPN",
+    "LiquidVPN",
+    "NordVPN",
+    "Norton VPN",
+    "Perfect-Privacy",
+    "Private Internet Access",
+    "Private VPN",
+    "Proton VPN",
+    "Strong VPN",
+    "SurfShark",
+    "TorGuard",
+    "TunnelBear",
+    "UltraVPN",
+    "VPNArea",
+    "VyprVPN",
+    "Winscribe",
+    "Mullvad",
+    "Apple Private Relay"
+  ]
+}
