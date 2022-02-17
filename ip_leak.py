@@ -3,7 +3,6 @@ import random
 import string
 import requests
 
-
 def get_ip_leak_data():
     '''pull data from ipleak.com'''
 
@@ -29,8 +28,7 @@ def get_ip_leak_data():
     ip_leak_json['ip_info']['country'] = json_response['country_name']
     '''return list of dns servers. Api call only returns one dns address, so function hits api 15 times'''
     for _ in range(15):
-        response = requests.get(
-            f"https://{random_string_generator()}.ipleak.net/json/")
+        response = requests.get("https://{}.ipleak.net/json/".format(random_string_generator()))
         json_response = response.json()
         dns_data = {'ip': json_response['ip'], 'region': json_response['region_name'],
                     'country': json_response['country_name']}
@@ -39,7 +37,7 @@ def get_ip_leak_data():
             ip_leak_json['dns_info'].append(dns_data)
     for i in ip_leak_json['dns_info']:
         if i['country'] != ip_leak_json['ip_info']['country']:
-            discrepancies = f"IP addresses resolved to different locations. {i['country']} resolved to {ip_leak_json['ip_info']['country']}"
+            discrepancies = ("IP addresses resolved to different locations. {} resolved to {i}".format(i['country'],ip_leak_json['ip_info']['country']))
             ip_leak_json['system_discrepancies'] = discrepancies
         else:
             ip_leak_json['system_discrepancies'] = "No discrepancies noted."

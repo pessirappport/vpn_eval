@@ -3,6 +3,7 @@ import requests
 
 def get_ip_api_data():
     '''get ip information from ip-api.com'''
+
     ip_api_json = {
         "ipInfo": {
             "status": " ",
@@ -24,7 +25,8 @@ def get_ip_api_data():
     }
     '''get ip information'''
     response = requests.get(
-        "http://ip-api.com/json/?fields=status,message,country,regionName,city,lat,lon,isp,mobile,proxy,hosting,query")
+        "http://ip-api.com/json/?fields=status,message,country,"
+        "regionName,city,lat,lon,isp,mobile,proxy,hosting,query")
     json_response = response.json()
 
     '''get dns information'''
@@ -38,11 +40,12 @@ def get_ip_api_data():
         lat_lon = json_response['lat'], json_response['lon']
 
         '''reverse geocode the coordinates to find city, country'''
-        url = (
-            f"https://api.myptv.com/geocoding/v1/locations/by-position/{json_response['lat']}/{json_response['lon']}?language=en")
-        print(url)
+        url = ("https://api.myptv.com/geocoding/v1/locations/by-position/{}/{}?language=en".format(
+            json_response['lat'], json_response['lon']))
+
         headers = {
-            'apiKey': "NzM0NjdlOTcwMDY3NDU2NTkxMjhjNjVmMTQ3NGU3ZmM6MDU2NWNiYTMtYjJjMy00NDVhLWJiMjMtZjAwYjQyMTI5NWZl"
+            'apiKey': "NzM0NjdlOTcwMDY3NDU2NTkxMjhjNjVmMTQ3NGU3ZmM6MDU2N"
+            "WNiYTMtYjJjMy00NDVhLWJiMjMtZjAwYjQyMTI5NWZl"
         }
         response = requests.request("GET", url, headers=headers)
         location_resolve = response.json()
