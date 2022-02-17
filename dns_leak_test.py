@@ -1,3 +1,4 @@
+'''get ip information from dnsleaktest.com'''
 import socket
 import sys
 from uuid import uuid4
@@ -17,15 +18,15 @@ def dns_req(uuid, server, port):
             skt.sendto(req, (server, port))
         skt.settimeout(5)
         skt.recv(512)
-    except (socket.timeout, socket.error) as e:
-        sys.exit("Error connecting to DNS server: " + str(e))
+    except (socket.timeout, socket.error) as error:
+        sys.exit("Error connecting to DNS server: " + str(error))
 
 def get_dns_test_leak_data():
     '''get dnsleaktest.com data'''
 
-    # Taken from: https://gist.github.com/Tugzrida/6fe83682157ead89875a76d065874973
-    # Author: Tugzrida(https://gist.github.com/Tugzrida)
-    # dnsleaktest v0.7 python CLI
+    '''Taken from: https://gist.github.com/Tugzrida/6fe83682157ead89875a76d065874973
+    Author: Tugzrida(https://gist.github.com/Tugzrida)
+    dnsleaktest v0.7 python CLI'''
     version = "0.7"
     test_ids = []
     server = None
