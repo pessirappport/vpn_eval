@@ -1,200 +1,71 @@
 {
-    "VPN": {
-    "type": "string"
-    },
-    "Type of Evaluation": {
-    "type": "string"
-    },
-    "Evaluation Date": {
-    "type": "string"
-    },
-    "URL": {
-    "type": "string"
-    },
-    "Pricing": {
-    "type": "string"
-    },
-    "Payment Information": {
-    "type": "string"
-    },
-    "Extra Options": {
-    "type": "string"
-    },
-    "Trial Information": {
-    "type": "string"
-    },
-    "Account Creation Information": {
-    "type": "string"
-    },
-    "Supported OS": {
-    "type": "string"
-    },
-    "OS Applications": {
-    "type": "string"
-    },
-    "Browser Extensions": {
-    "type": "string"
-    },
-    "Other Devices": {
-    "type": "string"
-    },
-    "Number of Devices/Connections": {
-    "type": "string"
-    },
-    "Encryption": {
-    "type": "string"
-    },
-    "2FA": {
-    "type": "string"
-    },
-    "AdBlock": {
-    "type": "string"
-    },
-    "Supported Protocols": {
-    "type": "string"
-    },
-    "Multi-Hop": {
-    "type": "string"
-    },
-    "P2P": {
-    "type": "string"
-    },
-    "Static IP": {
-    "type": "string"
-    },
-    "Killswitch": {
-    "type": "string"
-    },
-    "Server Locations": {
-    "type": "string"
-    },
-    "Data Collection Policy": {
-    "type": "string"
-    },
-    "Data Retained": {
-    "type": "string"
-    },
-    "Advertising Data": {
-    "type": "string"
-    },
-    "Payment Data": {
-    "type": "string"
-    },
-    "Data Retention Timeline": {
-    "type": "string"
-    },
-    "Ownership": {
-    "type": "string"
-    },
-    "Corporate HQ": {
-    "type": "string"
-    },
-    "Country of Governance": {
-    "type": "string"
-    },
-    "Notes": {
-    "type": "string"
-    },
-    "Recent News": {
-    "type": "string"
-    },
-    "Reported Malware/Malicious Intent": {
-    "type": "string"
-    },
-    "Windows Operating System": {
-        "type": "string"
-    },
-    "Windows Configuration": {
-        "type": "string"
-    },
-    "Windows IP Geolocation": {
-        "type": "string"
-    },
-    "Windows Browser Geolocation": {
-        "type": "string"
-    },
-    "Windows DNS Status": {
-        "type": "string"
-    },
-    "Windows VPN/Proxy Detection": {
-        "type": "string"
-    },
-    "Windows IP Ownership": {
-        "type": "string"
-    },
-    "Windows Notes": {
-        "type": "string"
-    },
-    "Ubuntu Operating System": {
-        "type": "string"
-    },
-    "Ubuntu Configuration": {
-        "type": "string"
-    },
-    "Ubuntu IP Geolocation": {
-        "type": "string"
-    },
-    "Ubuntu Browser Geolocation": {
-        "type": "string"
-    },
-    "Ubuntu DNS Status": {
-        "type": "string"
-    },
-    "Ubuntu VPN/Proxy Detection": {
-        "type": "string"
-    },
-    "Ubuntu IP Ownership": {
-        "type": "string"
-    },
-    "Ubuntu Notes": {
-        "type": "string"
-    },
-    "IoS Operating System": {
-        "type": "string"
-    },
-    "IoS Configuration": {
-        "type": "string"
-    },
-    "IoS IP Geolocation": {
-        "type": "string"
-    },
-    "IoS Browser Geolocation": {
-        "type": "string"
-    },
-    "IoS DNS Status": {
-        "type": "string"
-    },
-    "IoS VPN/Proxy Detection": {
-        "type": "string"
-    },
-    "IoS IP Ownership": {
-        "type": "string"
-    },
-    "IoS Notes": {
-        "type": "string"
-    },
-    "Android Operating System": {
-        "type": "string"
-    },
-    "Android Configuration": {
-        "type": "string"
-    },
-    "Android IP Geolocation": {
-        "type": "string"
-    },
-    "Android Browser Geolocation": {
-        "type": "string"
-    },
-    "Android DNS Status": {
-        "type": "string"
-    },
-    "Android VPN/Proxy Detection": {
-        "type": "string"
-    },
-    "Android IP Ownership": {
-        "type": "string"
-    },
-    "Android Notes": {
-        "type": "string"
-    }
+    "VPN": "IPVanish",
+    "Background Evaluation Date": "1/9/2022",
+    "URL": "https://ipvanish.com",
+    "Pricing": "$10.99/month; $3.75/month/first year, $7.50/month/year afterwards",
+    "Payment Information": "Debit/Credit Card: Visa, Mastercard, AMEX, JCB, Discover; PayPal",
+    "Extra Options": "VPN + Backup:\n$12.99/month, $4.58/month/first year, $9.17/month/year afterwards",
+    "Trial Information": "None",
+    "Account Creation Information": "Email Address, password",
+    "Supported OS": "MacOS, Windows, Linux, iOS, Android",
+    "OS Applications": "MacOS, Windows, iOS, Android",
+    "Browser Extensions": "Chrome OS",
+    "Other Devices": "Fire TV, Routers: DD-WRT",
+    "Number of Devices/Connections": "Unlimited",
+    "Encryption": "AES-256",
+    "2FA": "No",
+    "AdBlock": "No",
+    "Supported Protocols": "IKEv2, OpenVPN (TCP/UDP), L2TP, PPTP",
+    "Multi-Hop": "No",
+    "P2P": "Yes",
+    "Static IP": "No",
+    "Killswitch": "MacOS, Windows, Android",
+    "Server Locations": "South Korea; Japan; Malaysia; Israel; India; Taiwan; UAE; Singapore; United States; Canada; Mexico; Costa Rica; Australia, New Zealand, South Africa, Columbia, Argentina; Brazil; Peru; Chile; United Kingdom; France; Sweden; Netherlands; Spain; Hungary; Moldova; Ireland; Albania; Poland; Estonia; Slovenia; Iceland; Slovakia; Italy; Switzerland; Germany; Norway; Bulgaria; Denmark; Serbia; Finland; Latvia; Portugal; Belgium; Greece; Romania; Croatia; Czech Republic; Austria; Luxembourg;",
+    "Data Collection Policy": "Zero Log Policy",
+    "Data Retained": "Registration information: email address, credit card information, IP address, affiliate tracking data; Aggregated anonymous personal data: browser type, device type, operating system, average time spent on our site, pages visited on the site, interactions with our content or advertising, gender, age, language preference, and country; Aggregated anonymous app data: User’s language preference, device brand, device model, OS version, country, crash reports, session lengths, server usage, protocol, build version, UI interactions, API requests and response codes, and app build version;",
+    "Advertising Data": "Cookie ID, browser type, device type, OS, average time spent on site, pages visited on site, gender, age, language preference, country;",
+    "Payment Data": "Email address, name , billing information, credit card information, IP address, affiliate tracking data",
+    "Data Retention Timeline": "\"We take every reasonable step to limit the volume and minimize the retention period of the Personal data that we Process.\"",
+    "Ownership": "Ziff Davis",
+    "Corporate HQ": "New York, NY",
+    "Country of Governance": "United States",
+    "Notes": "",
+    "Recent News": "",
+    "Reported Malware/Malicious Intent": "", 
+    "Windows Operating System": "Windows 10",
+    "Windows Evaluation Date": "1/27/2022",
+    "Windows Configuration": "Concerns",
+    "Windows IP Geolocation": "No Issues",
+    "Windows Browser Geolocation": "No Issues",
+    "Windows DNS Status": "No Issues",
+    "Windows VPN/Proxy Detection": "Concerns",
+    "Windows IP Ownership": "Concerns",
+    "Windows Notes": "VPN/Proxy Detection: Identified by sites as a proxy in addition to three of the assigned IP addresses are leased by Strong Technology.\nConfiguration: Of note is that the destination IP addresses from the host computer are the same IP addresses that are forwarded to the web by the VPN. Anyone monitoring may detect the host computer's origin.\nIP Ownership: Again, concern that many IP addresses were directly owned by Strong Technology.",
+    "Ubuntu Operating System": "Ubuntu",
+    "Ubuntu Evaluation Date": "1/27/2022",
+    "Ubuntu Configuration": "Concerns",
+    "Ubuntu IP Geolocation": "Concerns",
+    "Ubuntu Browser Geolocation": "Failures",
+    "Ubuntu DNS Status": "No Issues",
+    "Ubuntu VPN/Proxy Detection": "Concerns",
+    "Ubuntu IP Ownership": "No Issues",
+    "Ubuntu Notes": "Browser Geolocation: Inconsistent with greater than 50% failing to locate accurately. Google resolution included Los Angeles and Bing resolved to Largo, FL, USA. Google did not resolve accurately on any test.\nVPN Proxy - 50/50 chance to identify as behind a proxy based on testing.\nIP Geolocation: One Reverse IP detected during testing, resolving to EpicUp.com and physically to Scottsdale, AZ, USA.\nConfiguration: Ubuntu install requires download and install of config files for OpenVPN. IKEv2 available with manual configuration only.",
+    "Android Operating System": "Android",
+    "Android Evaluation Date": "1/27/2022",
+    "Android Configuration": "No Issues",
+    "Android IP Geolocation": "No Issues",
+    "Android Browser Geolocation": "Concerns",
+    "Android DNS Status": "No Issues",
+    "Android VPN/Proxy Detection": "Concerns",
+    "Android IP Ownership": "Concerns",
+    "Android Notes": "Browser Geolocation - Google did not resolve to the correct location. Yahoo had one resolution to Maretta, GA, USA (location of host IP address registrant).\nIP Ownership: IP addresses assigned in Canada, South Africa, and Korea were identical to addresses assigned in iOS testing on a different day. /// Detected a reverse IP assigned to EpicUp.com.\nVPN/Proxy Detection: Mixed results from different tests.\nConfiguration: Very limited, only allows selection of three protocols.",
+    "IoS Operating System": "IoS",
+    "IoS Evaluation Date": "1/27/2022",
+    "IoS Configuration": "Concerns",
+    "IoS IP Geolocation": "No Issues",
+    "IoS Browser Geolocation": "Concerns",
+    "IoS DNS Status": "No Issues",
+    "IoS VPN/Proxy Detection": "Concerns",
+    "IoS IP Ownership": "Concerns",
+    "IoS Notes": "Browser Geolocation - Google did not resolve to the correct location. Yahoo had one resolution to Maretta, GA, USA (location of host IP address registrant).\nIP Ownership: IP addresses assigned in Canada, South Africa, and Korea were identical to addresses assigned in Android testing on a different day. /// Detected a reverse IP assigned to EpicUp.com.\nVPN/Proxy Detection: Mixed results from different tests.\nConfiguration: Very limited, only allows selection of three protocols."
 }
