@@ -16,14 +16,13 @@ def validate_json(data):
     try:
         validate(instance=data, schema=jsonSchema)
     except jsonschema.exceptions.ValidationError as err:
-        print(err)
         return False
     return True
 
 
 def date_formatter(field):
     '''checks if dates are formatted correctly.'''
-    #checks to see if date field has been filled out or is not empty space
+    # checks to see if date field has been filled out or is not empty space
     if data[field] and len(data[field]) > 1:
         format = "%m/%d/%y"
         date_res = True
@@ -56,16 +55,19 @@ def os_formatter(os):
         if os == 'Windows Operating System' and data[os] != "Windows 10":
             errors.append(f"{os} is formatted incorrectly")
 
+
 def eval_formatter(field):
     '''checks if evaluations are properly entered'''
     options = ['No Issues', 'Concerns', 'Failures', '', ' ']
     if data[field] not in options:
         errors.append(f'{field} must be "No Issues", "Concerns", "Failures".')
 
+
 def notes_formatter(field):
     '''checks if notes are longer than 300 characters'''
     if len(data[field]) > 300:
         errors.append(f'{field} are too long. Limited to 300 characters')
+
 
 # Convert json to python object
 with open('data.json', 'r', encoding='utf-8') as f:
@@ -81,7 +83,7 @@ else:
 
 errors = []
 
-date_formatter('Background Evaluation Date')
+date_formatter('Background Date')
 date_formatter('Windows Evaluation Date')
 date_formatter('Ubuntu Evaluation Date')
 date_formatter('IoS Evaluation Date')

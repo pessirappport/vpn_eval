@@ -14,7 +14,8 @@ file.close()
 # define proper formatting for json
 master_format = {
     "VPN": "",
-    "Background Evaluation Date": "",
+    "Progress": "",
+    "Background Date": "",
     "URL": "",
     "Pricing": "",
     "Payment Information": "",
@@ -25,7 +26,9 @@ master_format = {
     "OS Applications": "",
     "Browser Extensions": "",
     "Other Devices": "",
-    "Number of Devices/Connections": "",
+    "Number of Devices": {
+        "Connections": "",
+    },
     "Encryption": "",
     "2FA": "",
     "AdBlock": "",
@@ -45,7 +48,9 @@ master_format = {
     "Country of Governance": "",
     "Notes": "",
     "Recent News": "",
-    "Reported Malware/Malicious Intent": "",
+    "Reported Malware": {
+        "Malicious Intent": ""
+    },
     "Windows Operating System": "",
     "Windows Configuration": " ",
     "Windows IP Geolocation": " ",
@@ -83,7 +88,8 @@ master_format = {
 
 # rewrite json to proper format
 master_format['VPN'] = data[0]['VPN']
-master_format['Background Evaluation Date'] = data[0]['Background Evaluation Date']
+master_format['Progress'] = "Completed"
+master_format['Background Date'] = data[0]['Background Evaluation Date']
 master_format['URL'] = data[0]['URL']
 master_format['Pricing'] = data[0]['Pricing']
 master_format['Payment Information'] = data[0]['Payment Information']
@@ -94,7 +100,7 @@ master_format['Supported OS'] = data[0]['Supported OS']
 master_format['OS Applications'] = data[0]['OS Applications']
 master_format['Browser Extensions'] = data[0]['Browser Extensions']
 master_format['Other Devices'] = data[0]['Other Devices']
-master_format['Number of Devices/Connections'] = data[0]['Number of Devices/Connections']
+master_format['Number of Devices']['Connections'] = data[0]['Number of Devices/Connections']
 master_format['Encryption'] = data[0]['Encryption']
 master_format['2FA'] = data[0]['2FA']
 master_format['AdBlock'] = data[0]['AdBlock']
@@ -113,7 +119,7 @@ master_format['Corporate HQ'] = data[0]['Corporate HQ']
 master_format['Country of Governance'] = data[0]['Country of Governance']
 master_format['Notes'] = data[0]['Notes']
 master_format['Recent News'] = data[0]['Recent News']
-master_format['Reported Malware/Malicious Intent'] = data[0]['Reported Malware/Malicious Intent']
+master_format['Reported Malware']['Malicious Intent'] = data[0]['Reported Malware/Malicious Intent']
 master_format['Windows Operating System'] = data[1]['Windows Operating System']
 master_format['Windows Evaluation Date'] = data[1]['Windows Evaluation Date']
 master_format['Windows Configuration'] = data[1]['Windows Configuration']

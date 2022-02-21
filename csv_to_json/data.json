@@ -1,6 +1,7 @@
 {
   "VPN": "IPVanish",
-  "Background Evaluation Date": "1/9/22",
+  "Progress": "Completed",
+  "Background Date": "1/9/22",
   "URL": "https://ipvanish.com",
   "Pricing": "$10.99/month; $3.75/month/first year, $7.50/month/year afterwards",
   "Payment Information": "Debit/Credit Card: Visa, Mastercard, AMEX, JCB, Discover; PayPal",
@@ -11,7 +12,9 @@
   "OS Applications": "MacOS, Windows, Linux, iOS, Android",
   "Browser Extensions": "Chrome OS",
   "Other Devices": "Fire TV, Routers: DD-WRT",
-  "Number of Devices/Connections": "Unlimited",
+  "Number of Devices": {
+    "Connections": "Unlimited"
+  },
   "Encryption": "AES-256",
   "2FA": "No",
   "AdBlock": "No",
@@ -31,7 +34,9 @@
   "Country of Governance": "United States",
   "Notes": "",
   "Recent News": "",
-  "Reported Malware/Malicious Intent": "",
+  "Reported Malware": {
+    "Malicious Intent": ""
+  },
   "Windows Operating System": "",
   "Windows Configuration": "",
   "Windows IP Geolocation": "",
@@ -56,7 +61,7 @@
   "Android DNS Status": "No Issues",
   "Android VPN/Proxy Detection": "Concerns",
   "Android IP Ownership": "No Issues",
-  "Android Notes": "Failures: As soon as browser was allowed to access location, it placed user at current location;\nProxy Failures: Proxy use was consistently discovered.  ",
+  "Android Notes": "Geolocation Failures: As soon as browser was allowed to access location, it placed user at current location;\nProxy Failures: Proxy use was consistently discovered.  ",
   "IoS Operating System": "IoS",
   "IoS Configuration": "No Issues",
   "IoS IP Geolocation": "No Issues",

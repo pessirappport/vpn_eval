@@ -5,7 +5,10 @@
     "VPN": {
       "type": "string"
     },
-    "Background Evaluation Date": {
+    "Progress": {
+      "type": "string"
+    },
+    "Background Date": {
       "type": "string"
     },
     "URL": {
@@ -38,8 +41,16 @@
     "Other Devices": {
       "type": "string"
     },
-    "Number of Devices/Connections": {
-      "type": "string"
+    "Number of Devices": {
+      "type": "object",
+      "properties": {
+        "Connections": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Connections"
+      ]
     },
     "Encryption": {
       "type": "string"
@@ -98,8 +109,16 @@
     "Recent News": {
       "type": "string"
     },
-    "Reported Malware/Malicious Intent": {
-      "type": "string"
+    "Reported Malware": {
+      "type": "object",
+      "properties": {
+        "Malicious Intent": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Malicious Intent"
+      ]
     },
     "Windows Operating System": {
       "type": "string"
@@ -212,7 +231,8 @@
   },
   "required": [
     "VPN",
-    "Background Evaluation Date",
+    "Progress",
+    "Background Date",
     "URL",
     "Pricing",
     "Payment Information",
@@ -223,7 +243,7 @@
     "OS Applications",
     "Browser Extensions",
     "Other Devices",
-    "Number of Devices/Connections",
+    "Number of Devices",
     "Encryption",
     "2FA",
     "AdBlock",
@@ -243,7 +263,7 @@
     "Country of Governance",
     "Notes",
     "Recent News",
-    "Reported Malware/Malicious Intent",
+    "Reported Malware",
     "Windows Operating System",
     "Windows Configuration",
     "Windows IP Geolocation",
