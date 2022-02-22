@@ -1,4 +1,0 @@
-﻿VPN,Operating System,Evaluation Date,Configuration,IP Geolocation,Browser Geolocation,DNS Status,VPN/Proxy Detection,IP Ownership,Notes
-text,Windows 10; Ubuntu; Android; IoS,date (MM/DD/YYYY),No Issues; Concerns; Failures; ,No Issues; Concerns; Failures; ,No Issues; Concerns; Failures; ,No Issues; Concerns; Failures; ,No Issues; Concerns; Failures; ,No Issues; Concerns; Failures; ,text <500 characters
-IPVanish,Windows 10,1/8/22,No Issues,No Issues,Failures,No Issues,Concerns,No Issues,"Geolocation Failures: As soon as browser was allowed to access location, it placed user at current location;
-Proxy Failures: Proxy use was consistently discovered. "
