@@ -122,6 +122,7 @@ background_data['Data Retained'] = data['Data Retained']
 background_data['Advertising Data'] = data['Advertising Data']
 background_data['Payment Data'] = data['Payment Data']
 background_data['Data Retention Timeline'] = data['Data Retention Timeline']
+background_data['Ownership'] = data['Ownership']
 background_data['Corporate HQ'] = data['Corporate HQ']
 background_data['Country of Governance'] = data['Country of Governance']
 background_data['Notes'] = data['Notes']
@@ -174,5 +175,12 @@ broken_down_data_compiled = [
 
 broken_down_data_compiled_json = json.dumps(broken_down_data_compiled)
 
-with open("broken_and_compiled_data.json", "w", encoding='utf-8') as outfile:
+with open("broken_and_compiled_data.json", "w", encoding='utf-8-sig') as outfile:
     outfile.write(broken_down_data_compiled_json)
+
+with open('broken_and_compiled_data.json', 'r', encoding='utf-8-sig') as f:
+    data = f.read()
+data = json.loads(data)
+
+with open("broken_and_compiled_data.json", "w", encoding='utf-8-sig') as outfile:
+    json.dump(broken_down_data_compiled, outfile, indent=2 )
