@@ -24,10 +24,10 @@ def date_formatter(field):
     '''checks if dates are formatted correctly.'''
     # checks to see if date field has been filled out or is not empty space
     if data[field] and len(data[field]) > 1:
-        format = "%m/%d/%y"
+        date_format = "%m/%d/%y"
         date_res = True
         try:
-            date_res = bool(datetime.strptime(data[field], format))
+            date_res = bool(datetime.strptime(data[field], date_format))
         except ValueError:
             date_res = False
         if not date_res:
@@ -63,10 +63,10 @@ def eval_formatter(field):
         errors.append(f'{field} must be "No Issues", "Concerns", "Failures".')
 
 
-def notes_formatter(field):
-    '''checks if notes are longer than 300 characters'''
-    if len(data[field]) > 300:
-        errors.append(f'{field} are too long. Limited to 300 characters')
+def character_counter(field, number):
+    '''checks if notes are longer than character limit'''
+    if len(data[field]) > number:
+        errors.append(f'{field} are too long. Limited to {number} characters')
 
 
 # Convert json to python object
@@ -117,9 +117,14 @@ eval_formatter("Android Browser Geolocation")
 eval_formatter("Android DNS Status")
 eval_formatter("Android VPN/Proxy Detection")
 eval_formatter("Android IP Ownership")
-notes_formatter('Windows Notes')
-notes_formatter('IoS Notes')
-notes_formatter('Ubuntu Notes')
-notes_formatter('Android Notes')
-notes_formatter('Notes')
-print(errors)
+character_counter('Windows Notes', 300)
+character_counter('IoS Notes', 300)
+character_counter('Ubuntu Notes', 300)
+character_counter('Android Notes', 300)
+character_counter('Notes', 300)
+character_counter('Evaluation Summary', 1000)
+
+if errors:
+    print(errors)
+else:
+    print("No errors")

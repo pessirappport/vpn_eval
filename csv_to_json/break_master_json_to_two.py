@@ -57,6 +57,7 @@ background_data = {
     "VPN": "",
     "Progress": "",
     "Background Date": "",
+    "Evaluation Summary": "",
     "URL": "",
     "Pricing": "",
     "Payment Information": "",
@@ -97,6 +98,7 @@ background_data = {
 background_data['VPN'] = data['VPN']
 background_data['Progress'] = "Completed"
 background_data['Background Date'] = data['Background Date']
+background_data['Evaluation Summary'] = data['Evaluation Summary']
 background_data['URL'] = data['URL']
 background_data['Pricing'] = data['Pricing']
 background_data['Payment Information'] = data['Payment Information']
@@ -175,12 +177,6 @@ broken_down_data_compiled = [
 
 broken_down_data_compiled_json = json.dumps(broken_down_data_compiled)
 
-with open("broken_and_compiled_data.json", "w", encoding='utf-8-sig') as outfile:
-    outfile.write(broken_down_data_compiled_json)
-
-with open('broken_and_compiled_data.json', 'r', encoding='utf-8-sig') as f:
-    data = f.read()
-data = json.loads(data)
 
 with open("broken_and_compiled_data.json", "w", encoding='utf-8-sig') as outfile:
-    json.dump(broken_down_data_compiled, outfile, indent=2 )
+    json.dump(broken_down_data_compiled, outfile, indent=2)

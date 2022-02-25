@@ -16,6 +16,7 @@ master_format = {
     "VPN": "",
     "Progress": "",
     "Background Date": "",
+    "Evaluation Summary": "",
     "URL": "",
     "Pricing": "",
     "Payment Information": "",
@@ -90,6 +91,7 @@ master_format = {
 master_format['VPN'] = data[0]['VPN']
 master_format['Progress'] = "Completed"
 master_format['Background Date'] = data[0]['Background Evaluation Date']
+master_format['Evaluation Summary'] = data[0]['Evaluation Summary']
 master_format['URL'] = data[0]['URL']
 master_format['Pricing'] = data[0]['Pricing']
 master_format['Payment Information'] = data[0]['Payment Information']

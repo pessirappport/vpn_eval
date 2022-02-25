@@ -11,6 +11,9 @@
     "Background Date": {
       "type": "string"
     },
+    "Evaluation Summary": {
+      "type": "string"
+    },
     "URL": {
       "type": "string"
     },
@@ -233,6 +236,7 @@
     "VPN",
     "Progress",
     "Background Date",
+    "Evaluation Summary",
     "URL",
     "Pricing",
     "Payment Information",
