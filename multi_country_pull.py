@@ -19,6 +19,8 @@ countries_list = get_countries_in_continents()
 country = ip_json["ip_api"]["ipInfo"]["country"]
 if (country == "United Kingdom"):
     country = "United Kingdom of Great Britain and Northern Ireland"
+elif (country == "United States"):
+    country == "United States of America"
 print(country)
 
 #find which continent it is in
@@ -31,13 +33,11 @@ print(continent)
 #get json data
 with open('data.json') as json_file:
     data = json.load(json_file)
-    
     #add it to correct place in file
-    if continent in data:
-        pass
-    else:
-        data[continent] = ip_json
-
+    # if continent in data:
+    #     pass
+    # else:
+    data[continent] = ip_json
 with open('data.json', 'w') as json_file:
     json.dump(data, json_file, 
                         indent=2,  
