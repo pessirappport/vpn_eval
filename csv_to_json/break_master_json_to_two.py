@@ -13,6 +13,7 @@ windows_evaluation_data = {
     "IP Geolocation": "",
     "Browser Geolocation": "",
     "DNS Status": "",
+    "VPN/Proxy Detection": "",
     "IP Ownership": "",
     "Notes": ""
 }
@@ -25,6 +26,7 @@ ios_evaluation_data = {
     "IP Geolocation": "",
     "Browser Geolocation": "",
     "DNS Status": "",
+    "VPN/Proxy Detection": "",
     "IP Ownership": "",
     "Notes": ""
 }
@@ -37,6 +39,8 @@ ubuntu_evaluation_data = {
     "IP Geolocation": "",
     "Browser Geolocation": "",
     "DNS Status": "",
+    "VPN/Proxy Detection": "",
+
     "IP Ownership": "",
     "Notes": ""
 }
@@ -49,6 +53,8 @@ android_evaluation_data = {
     "IP Geolocation": "",
     "Browser Geolocation": "",
     "DNS Status": "",
+    "VPN/Proxy Detection": "",
+
     "IP Ownership": "",
     "Notes": ""
 }
@@ -137,6 +143,7 @@ windows_evaluation_data["Configuration"] = data['Windows Configuration']
 windows_evaluation_data["IP Geolocation"] = data['Windows IP Geolocation']
 windows_evaluation_data["Browser Geolocation"] = data['Windows Browser Geolocation']
 windows_evaluation_data["DNS Status"] = data['Windows DNS Status']
+windows_evaluation_data["VPN/Proxy Detection"] = data['Windows VPN/Proxy Detection']
 windows_evaluation_data["IP Ownership"] = data['Windows IP Ownership']
 windows_evaluation_data["Notes"] = data['Windows Notes']
 ios_evaluation_data["VPN"] = data['VPN']
@@ -146,6 +153,7 @@ ios_evaluation_data["Configuration"] = data['IoS Configuration']
 ios_evaluation_data["IP Geolocation"] = data['IoS IP Geolocation']
 ios_evaluation_data["Browser Geolocation"] = data['IoS Browser Geolocation']
 ios_evaluation_data["DNS Status"] = data['IoS DNS Status']
+ios_evaluation_data["VPN/Proxy Detection"] = data['IoS VPN/Proxy Detection']
 ios_evaluation_data["IP Ownership"] = data['IoS IP Ownership']
 ios_evaluation_data["Notes"] = data['IoS Notes']
 android_evaluation_data["VPN"] = data['VPN']
@@ -155,6 +163,7 @@ android_evaluation_data["Configuration"] = data['Android Configuration']
 android_evaluation_data["IP Geolocation"] = data['Android IP Geolocation']
 android_evaluation_data["Browser Geolocation"] = data['Android Browser Geolocation']
 android_evaluation_data["DNS Status"] = data['Android DNS Status']
+android_evaluation_data["VPN/Proxy Detection"] = data['Android VPN/Proxy Detection']
 android_evaluation_data["IP Ownership"] = data['Android IP Ownership']
 android_evaluation_data["Notes"] = data['Android Notes']
 ubuntu_evaluation_data["VPN"] = data['VPN']
@@ -164,6 +173,7 @@ ubuntu_evaluation_data["Configuration"] = data['Ubuntu Configuration']
 ubuntu_evaluation_data["IP Geolocation"] = data['Ubuntu IP Geolocation']
 ubuntu_evaluation_data["Browser Geolocation"] = data['Ubuntu Browser Geolocation']
 ubuntu_evaluation_data["DNS Status"] = data['Ubuntu DNS Status']
+ubuntu_evaluation_data["VPN/Proxy Detection"] = data['Ubuntu VPN/Proxy Detection']
 ubuntu_evaluation_data["IP Ownership"] = data['Ubuntu IP Ownership']
 ubuntu_evaluation_data["Notes"] = data['Ubuntu Notes']
 
@@ -176,7 +186,5 @@ broken_down_data_compiled = [
 ]
 
 broken_down_data_compiled_json = json.dumps(broken_down_data_compiled)
-
-
 with open("broken_and_compiled_data.json", "w", encoding='utf-8-sig') as outfile:
     json.dump(broken_down_data_compiled, outfile, indent=2)
