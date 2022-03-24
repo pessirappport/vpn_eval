@@ -70,7 +70,7 @@ def character_counter(field, number):
 
 
 # Convert json to python object
-with open('data.json', 'r', encoding='utf-8') as f:
+with open('ExpressVPN_data.json', 'r', encoding='utf-8') as f:
     data = f.read()
 data = json.loads(data)
 
