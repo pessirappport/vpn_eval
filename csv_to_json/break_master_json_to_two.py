@@ -1,6 +1,6 @@
 import json
 
-with open('data.json', 'r', encoding='utf-8') as f:
+with open('ExpressVPN_data.json', 'r', encoding='utf-8') as f:
     data = f.read()
 data = json.loads(data)
 
@@ -189,6 +189,8 @@ broken_down_data_compiled = [
     android_evaluation_data
 ]
 
+filename = data['VPN']+"_broken_and_compiled_data.json"
+
 broken_down_data_compiled_json = json.dumps(broken_down_data_compiled)
-with open("broken_and_compiled_data.json", "w", encoding='utf-8-sig') as outfile:
+with open(filename, "w", encoding='utf-8-sig') as outfile:
     json.dump(broken_down_data_compiled, outfile, indent=2)
