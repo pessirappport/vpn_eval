@@ -6,54 +6,54 @@ data = json.loads(data)
 
 windows_evaluation_data = {
     "VPN": "",
-    "Operating System": "Windows 10",
+    "Operating System": "",
     "Status": "Not Started",
     "Evaluation Date": "",
     "Configuration": "",
     "IP Geolocation": "",
     "Browser Geolocation": "",
     "DNS Status": "",
-    "VPN/Proxy Detection": "",
+    "VPN_Proxy Detection": "",
     "IP Ownership": "",
     "Notes": ""
 }
-ios_evaluation_data = {
+iOS_evaluation_data = {
     "VPN": "",
-    "Operating System": "IoS",
+    "Operating System": "",
     "Status": "Not Started",
     "Evaluation Date": "",
     "Configuration": "",
     "IP Geolocation": "",
     "Browser Geolocation": "",
     "DNS Status": "",
-    "VPN/Proxy Detection": "",
+    "VPN_Proxy Detection": "",
     "IP Ownership": "",
     "Notes": ""
 }
 ubuntu_evaluation_data = {
     "VPN": "",
-    "Operating System": "Ubuntu",
+    "Operating System": "",
     "Status": "Not Started",
     "Evaluation Date": "",
     "Configuration": "",
     "IP Geolocation": "",
     "Browser Geolocation": "",
     "DNS Status": "",
-    "VPN/Proxy Detection": "",
+    "VPN_Proxy Detection": "",
 
     "IP Ownership": "",
     "Notes": ""
 }
 android_evaluation_data = {
     "VPN": "",
-    "Operating System": "Android",
+    "Operating System": "",
     "Status": "Not Started",
     "Evaluation Date": "",
     "Configuration": "",
     "IP Geolocation": "",
     "Browser Geolocation": "",
     "DNS Status": "",
-    "VPN/Proxy Detection": "",
+    "VPN_Proxy Detection": "",
 
     "IP Ownership": "",
     "Notes": ""
@@ -138,42 +138,46 @@ background_data['Recent News'] = data['Recent News']
 background_data['Reported Malware']['Malicious Intent'] = data['Reported Malware']['Malicious Intent']
 windows_evaluation_data["VPN"] = data['VPN']
 windows_evaluation_data["Status"] = 'Complete'
+windows_evaluation_data["Operating System"] = data['Windows Operating System']
 windows_evaluation_data["Evaluation Date"] = data['Windows Evaluation Date']
 windows_evaluation_data["Configuration"] = data['Windows Configuration']
 windows_evaluation_data["IP Geolocation"] = data['Windows IP Geolocation']
 windows_evaluation_data["Browser Geolocation"] = data['Windows Browser Geolocation']
 windows_evaluation_data["DNS Status"] = data['Windows DNS Status']
-windows_evaluation_data["VPN/Proxy Detection"] = data['Windows VPN/Proxy Detection']
+windows_evaluation_data["VPN_Proxy Detection"] = data['Windows VPN_Proxy Detection']
 windows_evaluation_data["IP Ownership"] = data['Windows IP Ownership']
 windows_evaluation_data["Notes"] = data['Windows Notes']
-ios_evaluation_data["VPN"] = data['VPN']
-ios_evaluation_data["Status"] = 'Complete'
-ios_evaluation_data["Evaluation Date"] = data['IoS Evaluation Date']
-ios_evaluation_data["Configuration"] = data['IoS Configuration']
-ios_evaluation_data["IP Geolocation"] = data['IoS IP Geolocation']
-ios_evaluation_data["Browser Geolocation"] = data['IoS Browser Geolocation']
-ios_evaluation_data["DNS Status"] = data['IoS DNS Status']
-ios_evaluation_data["VPN/Proxy Detection"] = data['IoS VPN/Proxy Detection']
-ios_evaluation_data["IP Ownership"] = data['IoS IP Ownership']
-ios_evaluation_data["Notes"] = data['IoS Notes']
+iOS_evaluation_data["VPN"] = data['VPN']
+iOS_evaluation_data["Status"] = 'Complete'
+iOS_evaluation_data["Operating System"] = data['iOS Operating System']
+iOS_evaluation_data["Evaluation Date"] = data['iOS Evaluation Date']
+iOS_evaluation_data["Configuration"] = data['iOS Configuration']
+iOS_evaluation_data["IP Geolocation"] = data['iOS IP Geolocation']
+iOS_evaluation_data["Browser Geolocation"] = data['iOS Browser Geolocation']
+iOS_evaluation_data["DNS Status"] = data['iOS DNS Status']
+iOS_evaluation_data["VPN_Proxy Detection"] = data['iOS VPN_Proxy Detection']
+iOS_evaluation_data["IP Ownership"] = data['iOS IP Ownership']
+iOS_evaluation_data["Notes"] = data['iOS Notes']
 android_evaluation_data["VPN"] = data['VPN']
 android_evaluation_data["Status"] = 'Complete'
+android_evaluation_data["Operating System"] = data['Android Operating System']
 android_evaluation_data["Evaluation Date"] = data['Android Evaluation Date']
 android_evaluation_data["Configuration"] = data['Android Configuration']
 android_evaluation_data["IP Geolocation"] = data['Android IP Geolocation']
 android_evaluation_data["Browser Geolocation"] = data['Android Browser Geolocation']
 android_evaluation_data["DNS Status"] = data['Android DNS Status']
-android_evaluation_data["VPN/Proxy Detection"] = data['Android VPN/Proxy Detection']
+android_evaluation_data["VPN_Proxy Detection"] = data['Android VPN_Proxy Detection']
 android_evaluation_data["IP Ownership"] = data['Android IP Ownership']
 android_evaluation_data["Notes"] = data['Android Notes']
 ubuntu_evaluation_data["VPN"] = data['VPN']
 ubuntu_evaluation_data["Status"] = 'Complete'
+ubuntu_evaluation_data["Operating System"] = data['Ubuntu Operating System']
 ubuntu_evaluation_data["Evaluation Date"] = data['Ubuntu Evaluation Date']
 ubuntu_evaluation_data["Configuration"] = data['Ubuntu Configuration']
 ubuntu_evaluation_data["IP Geolocation"] = data['Ubuntu IP Geolocation']
 ubuntu_evaluation_data["Browser Geolocation"] = data['Ubuntu Browser Geolocation']
 ubuntu_evaluation_data["DNS Status"] = data['Ubuntu DNS Status']
-ubuntu_evaluation_data["VPN/Proxy Detection"] = data['Ubuntu VPN/Proxy Detection']
+ubuntu_evaluation_data["VPN_Proxy Detection"] = data['Ubuntu VPN_Proxy Detection']
 ubuntu_evaluation_data["IP Ownership"] = data['Ubuntu IP Ownership']
 ubuntu_evaluation_data["Notes"] = data['Ubuntu Notes']
 
@@ -181,7 +185,7 @@ broken_down_data_compiled = [
     background_data,
     windows_evaluation_data,
     ubuntu_evaluation_data,
-    ios_evaluation_data,
+    iOS_evaluation_data,
     android_evaluation_data
 ]
 
