@@ -138,7 +138,7 @@
     "Windows DNS Status": {
       "type": "string"
     },
-    "Windows VPN/Proxy Detection": {
+    "Windows VPN_Proxy Detection": {
       "type": "string"
     },
     "Windows IP Ownership": {
@@ -165,7 +165,7 @@
     "Ubuntu DNS Status": {
       "type": "string"
     },
-    "Ubuntu VPN/Proxy Detection": {
+    "Ubuntu VPN_Proxy Detection": {
       "type": "string"
     },
     "Ubuntu IP Ownership": {
@@ -189,7 +189,7 @@
     "Android DNS Status": {
       "type": "string"
     },
-    "Android VPN/Proxy Detection": {
+    "Android VPN_Proxy Detection": {
       "type": "string"
     },
     "Android IP Ownership": {
@@ -198,28 +198,28 @@
     "Android Notes": {
       "type": "string"
     },
-    "IoS Operating System": {
+    "iOS Operating System": {
       "type": "string"
     },
-    "IoS Configuration": {
+    "iOS Configuration": {
       "type": "string"
     },
-    "IoS IP Geolocation": {
+    "iOS IP Geolocation": {
       "type": "string"
     },
-    "IoS Browser Geolocation": {
+    "iOS Browser Geolocation": {
       "type": "string"
     },
-    "IoS DNS Status": {
+    "iOS DNS Status": {
       "type": "string"
     },
-    "IoS VPN/Proxy Detection": {
+    "iOS VPN_Proxy Detection": {
       "type": "string"
     },
-    "IoS IP Ownership": {
+    "iOS IP Ownership": {
       "type": "string"
     },
-    "IoS Notes": {
+    "iOS Notes": {
       "type": "string"
     },
     "Windows Evaluation Date": {
@@ -228,7 +228,7 @@
     "Android Evaluation Date": {
       "type": "string"
     },
-    "IoS Evaluation Date": {
+    "iOS Evaluation Date": {
       "type": "string"
     }
   },
@@ -273,7 +273,7 @@
     "Windows IP Geolocation",
     "Windows Browser Geolocation",
     "Windows DNS Status",
-    "Windows VPN/Proxy Detection",
+    "Windows VPN_Proxy Detection",
     "Windows IP Ownership",
     "Windows Notes",
     "Ubuntu Operating System",
@@ -282,7 +282,7 @@
     "Ubuntu IP Geolocation",
     "Ubuntu Browser Geolocation",
     "Ubuntu DNS Status",
-    "Ubuntu VPN/Proxy Detection",
+    "Ubuntu VPN_Proxy Detection",
     "Ubuntu IP Ownership",
     "Ubuntu Notes",
     "Android Operating System",
@@ -290,19 +290,19 @@
     "Android IP Geolocation",
     "Android Browser Geolocation",
     "Android DNS Status",
-    "Android VPN/Proxy Detection",
+    "Android VPN_Proxy Detection",
     "Android IP Ownership",
     "Android Notes",
-    "IoS Operating System",
-    "IoS Configuration",
-    "IoS IP Geolocation",
-    "IoS Browser Geolocation",
-    "IoS DNS Status",
-    "IoS VPN/Proxy Detection",
-    "IoS IP Ownership",
-    "IoS Notes",
+    "iOS Operating System",
+    "iOS Configuration",
+    "iOS IP Geolocation",
+    "iOS Browser Geolocation",
+    "iOS DNS Status",
+    "iOS VPN_Proxy Detection",
+    "iOS IP Ownership",
+    "iOS Notes",
     "Windows Evaluation Date",
     "Android Evaluation Date",
-    "IoS Evaluation Date"
+    "iOS Evaluation Date"
   ]
 }

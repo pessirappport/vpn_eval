@@ -57,7 +57,7 @@ master_format = {
     "Windows IP Geolocation": " ",
     "Windows Browser Geolocation": " ",
     "Windows DNS Status": " ",
-    "Windows VPN/Proxy Detection": " ",
+    "Windows VPN_Proxy Detection": " ",
     "Windows IP Ownership": " ",
     "Windows Notes": "",
     "Ubuntu Operating System": "",
@@ -66,7 +66,7 @@ master_format = {
     "Ubuntu IP Geolocation": " ",
     "Ubuntu Browser Geolocation": " ",
     "Ubuntu DNS Status": " ",
-    "Ubuntu VPN/Proxy Detection": " ",
+    "Ubuntu VPN_Proxy Detection": " ",
     "Ubuntu IP Ownership": " ",
     "Ubuntu Notes": "",
     "Android Operating System": "",
@@ -74,17 +74,17 @@ master_format = {
     "Android IP Geolocation": " ",
     "Android Browser Geolocation": " ",
     "Android DNS Status": " ",
-    "Android VPN/Proxy Detection": " ",
+    "Android VPN_Proxy Detection": " ",
     "Android IP Ownership": " ",
     "Android Notes": "",
-    "IoS Operating System": "",
-    "IoS Configuration": " ",
-    "IoS IP Geolocation": " ",
-    "IoS Browser Geolocation": " ",
-    "IoS DNS Status": " ",
-    "IoS VPN/Proxy Detection": " ",
-    "IoS IP Ownership": " ",
-    "IoS Notes": ""
+    "iOS Operating System": "",
+    "iOS Configuration": " ",
+    "iOS IP Geolocation": " ",
+    "iOS Browser Geolocation": " ",
+    "iOS DNS Status": " ",
+    "iOS VPN_Proxy Detection": " ",
+    "iOS IP Ownership": " ",
+    "iOS Notes": ""
 }
 
 # rewrite json to proper format
@@ -128,7 +128,7 @@ master_format['Windows Configuration'] = data[0]['Windows Configuration']
 master_format['Windows IP Geolocation'] = data[0]['Windows IP Geolocation']
 master_format['Windows Browser Geolocation'] = data[0]['Windows Browser Geolocation']
 master_format['Windows DNS Status'] = data[0]['Windows DNS Status']
-master_format['Windows VPN/Proxy Detection'] = data[0]['Windows VPN/Proxy Detection']
+master_format['Windows VPN_Proxy Detection'] = data[0]['Windows VPN_Proxy Detection']
 master_format['Windows IP Ownership'] = data[0]['Windows IP Ownership']
 master_format['Windows Notes'] = data[0]['Windows Notes']
 master_format['Ubuntu Operating System'] = data[0]['Ubuntu Operating System']
@@ -137,7 +137,7 @@ master_format['Ubuntu Configuration'] = data[0]['Ubuntu Configuration']
 master_format['Ubuntu IP Geolocation'] = data[0]['Ubuntu IP Geolocation']
 master_format['Ubuntu Browser Geolocation'] = data[0]['Ubuntu Browser Geolocation']
 master_format['Ubuntu DNS Status'] = data[0]['Ubuntu DNS Status']
-master_format['Ubuntu VPN/Proxy Detection'] = data[0]['Ubuntu VPN/Proxy Detection']
+master_format['Ubuntu VPN_Proxy Detection'] = data[0]['Ubuntu VPN_Proxy Detection']
 master_format['Ubuntu IP Ownership'] = data[0]['Ubuntu IP Ownership']
 master_format['Ubuntu Notes'] = data[0]['Ubuntu Notes']
 master_format['Android Operating System'] = data[0]['Android Operating System']
@@ -146,18 +146,18 @@ master_format['Android Configuration'] = data[0]['Android Configuration']
 master_format['Android IP Geolocation'] = data[0]['Android IP Geolocation']
 master_format['Android Browser Geolocation'] = data[0]['Android Browser Geolocation']
 master_format['Android DNS Status'] = data[0]['Android DNS Status']
-master_format['Android VPN/Proxy Detection'] = data[0]['Android VPN/Proxy Detection']
+master_format['Android VPN_Proxy Detection'] = data[0]['Android VPN_Proxy Detection']
 master_format['Android IP Ownership'] = data[0]['Android IP Ownership']
 master_format['Android Notes'] = data[0]['Android Notes']
-master_format['IoS Operating System'] = data[0]['IoS Operating System']
-master_format['IoS Evaluation Date'] = data[0]['IoS Evaluation Date']
-master_format['IoS Configuration'] = data[0]['IoS Configuration']
-master_format['IoS IP Geolocation'] = data[0]['IoS IP Geolocation']
-master_format['IoS Browser Geolocation'] = data[0]['IoS Browser Geolocation']
-master_format['IoS DNS Status'] = data[0]['IoS DNS Status']
-master_format['IoS VPN/Proxy Detection'] = data[0]['IoS VPN/Proxy Detection']
-master_format['IoS IP Ownership'] = data[0]['IoS IP Ownership']
-master_format['IoS Notes'] = data[0]['IoS Notes']
+master_format['iOS Operating System'] = data[0]['iOS Operating System']
+master_format['iOS Evaluation Date'] = data[0]['iOS Evaluation Date']
+master_format['iOS Configuration'] = data[0]['iOS Configuration']
+master_format['iOS IP Geolocation'] = data[0]['iOS IP Geolocation']
+master_format['iOS Browser Geolocation'] = data[0]['iOS Browser Geolocation']
+master_format['iOS DNS Status'] = data[0]['iOS DNS Status']
+master_format['iOS VPN_Proxy Detection'] = data[0]['iOS VPN_Proxy Detection']
+master_format['iOS IP Ownership'] = data[0]['iOS IP Ownership']
+master_format['iOS Notes'] = data[0]['iOS Notes']
 
 json_object = json.dumps(master_format, indent=2)
 
