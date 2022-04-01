@@ -65,12 +65,14 @@ def eval_formatter(field):
 
 def character_counter(field, number):
     '''checks if notes are longer than character limit'''
-    if len(data[field]) > number:
-        errors.append(f'{field} are too long. Limited to {number} characters')
+    if data[field]:
+        if len(data[field]) > number:
+            errors.append(
+                f'{field} are too long. Limited to {number} characters')
 
 
 # Convert json to python object
-with open('ExpressVPN_data.json', 'r', encoding='utf-8') as f:
+with open('./vpn_data_jsons/Hotspot Shield_data.json', 'r', encoding='utf-8') as f:
     data = f.read()
 data = json.loads(data)
 

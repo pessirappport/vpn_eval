@@ -1,6 +1,6 @@
 import json
 
-with open('ExpressVPN_data.json', 'r', encoding='utf-8') as f:
+with open('./vpn_data_jsons/Hotspot Shield_data.json', 'r', encoding='utf-8') as f:
     data = f.read()
 data = json.loads(data)
 
@@ -189,7 +189,8 @@ broken_down_data_compiled = [
     android_evaluation_data
 ]
 
-filename = data['VPN']+"_broken_and_compiled_data.json"
+filename = './separated_vpn_jsons/' + \
+    data['VPN']+"_broken_and_compiled_data.json"
 
 broken_down_data_compiled_json = json.dumps(broken_down_data_compiled)
 with open(filename, "w", encoding='utf-8-sig') as outfile:

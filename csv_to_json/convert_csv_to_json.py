@@ -3,7 +3,7 @@ import json
 from csv2json import convert
 
 # convert csv to json
-with open('master_data.csv', encoding='utf-8-sig') as r, open('data.json', 'w', encoding='utf-8') as w:
+with open('master_data.csv', encoding='latin-1') as r, open('data.json', 'w', encoding='utf-8') as w:
     convert(r, w)
 
 # Open newly-converted JSON file
@@ -88,7 +88,7 @@ master_format = {
 }
 
 # rewrite json to proper format
-for i in range (len(data)):
+for i in range(len(data)):
     master_format['VPN'] = data[i]['VPN']
     master_format['Progress'] = "Completed"
     master_format['Background Date'] = data[i]['Background Evaluation Date']
@@ -161,7 +161,7 @@ for i in range (len(data)):
     master_format['iOS Notes'] = data[i]['iOS Notes']
 
     json_object = json.dumps(master_format, indent=2)
-    filename = data[i]['VPN'] + "_data.json"
+    filename = "./vpn_data_jsons/" + data[i]['VPN'] + "_data.json"
     # write properly formatted json to data.json
     with open(filename, "w", encoding='utf-8') as outfile:
         outfile.write(json_object)
