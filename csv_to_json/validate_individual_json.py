@@ -72,7 +72,7 @@ def character_counter(field, number):
 
 
 # Convert json to python object
-with open('./vpn_data_jsons/Hotspot Shield_data.json', 'r', encoding='utf-8') as f:
+with open('./vpn_data_jsons/NordVPN_data.json', 'r', encoding='utf-8') as f:
     data = f.read()
 data = json.loads(data)
 

@@ -28,11 +28,11 @@
   "Data Collection Policy": "No logs policy",
   "Data Retained": "Account data: name, username, email adress, password, (identity protection products: social security number); Billing and payment data: billing name, billing contact details, payment instrument details; Usage data: how often services are used, amount of bandwidth used, length of services used; Device data: browser type, device identifiers, device settings, operating system version, mobile, wireless, application version numebrs; Location data: approximate location based on imprecise latitude and longitude based on IP address;",
   "Advertising Data": "Email address, referral sources, cookies, anonymized agregate data;",
-  "Payment Data": "Email address, card number, car holder name, expiration date, cvc code, country, state/province, city, ZIP code;",
+  "Payment Data": "Email address, card number, card holder name, expiration date, cvc code, country, state/province, city, ZIP code;",
   "Data Retention Timeline": "As long as is needed to provide services. Personal data is retained if required by law or to defend the company from abuse, fraud, or legal claims;",
   "Ownership": " ",
   "Corporate HQ": "United States",
-  "Country of Governance": "United States",
+  "Country of Governance": "Unites States",
   "Notes": "",
   "Recent News": "",
   "Reported Malware": {

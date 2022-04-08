@@ -12,7 +12,7 @@
   "Supported OS": "Windows, MacOS, Linux, iOS, Android",
   "OS Applications": "Windows, MacOS, Linux, iOS, Android",
   "Browser Extensions": "Chrome, Firefox; Cookie Cleaner for Chrome and Firefox",
-  "Other Devices": "Smart TV's: Android TV, Amazon Fire TV; Smart TV's with Smart DNS: LG SmartTV with webOS, Samsung SmartTV with Tizen OS; Routers: DD-WRT, TomatoUSB, TomatoUSB Merlin Build; Streaming consoles with Smart DNS: Apple TV 3 & 4, Roku TV; Gaming consoles with Smart DNS: PlayStation 3 & 4, Xbox One, Xbox 360, Nintendo Switch, Nintendo Wii U, Nintendo Wii; Synology NAS via OpenVPN; Raspberry Pi; Vu+ Solo\u00c2\u00b2; LibreELEC \u00e2\u0080\u009cKodi\u00e2\u0080\u009d; OpenELEC \u00e2\u0080\u009cKodi\u00e2\u0080\u009d;",
+  "Other Devices": "Smart TV's: Android TV, Amazon Fire TV; Smart TV's with Smart DNS: LG SmartTV with webOS,\nSamsung SmartTV with Tizen OS; Routers: DD-WRT, TomatoUSB, TomatoUSB Merlin Build; Streaming consoles with Smart DNS: Apple TV 3 & 4, Roku TV; Gaming consoles with Smart DNS: PlayStation 3 & 4, Xbox One, Xbox 360, Nintendo Switch,\nNintendo Wii U, Nintendo Wii; Synology NAS via OpenVPN; Raspberry Pi; Vu+ Solo\u00c2\u00b2; LibreELEC \u00e2\u0080\u009cKodi\u00e2\u0080\u009d; OpenELEC \u00e2\u0080\u009cKodi\u00e2\u0080\u009d;",
   "Number of Devices": {
     "Connections": "7"
   },
@@ -33,7 +33,7 @@
   "Ownership": " ",
   "Corporate HQ": "Romania",
   "Country of Governance": "Romania",
-  "Notes": "Website says no logging policy, yet seems to collect alot of personal data; Kape Technologies is a a security conglomerate that also owns ExpressVPN, Private Internet Access, Zenmate, and a collection of \u00e2\u0080\u009creview\u00e2\u0080\u009d websites.",
+  "Notes": "Website says no logging policy, yet seems to collect alot of personal data; Kape Technologies is a a security conglomerate that also owns ExpressVPN, Private Internet Access, Zenmate, and a collection of vpn review websites.",
   "Recent News": "Crossrider (now Kape Technologies) purchased CyberGhost VPN in 2017 for $10 million.",
   "Reported Malware": {
     "Malicious Intent": "None reported, but parent company is associated with malware and adware."
